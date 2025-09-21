@@ -12,4 +12,5 @@
   (lib (name "CRGP0805F10R")(type "KiCad")(uri "${KICAD_USER_CADFILES}/CRGP0805F10R")(options "")(descr ""))
   (lib (name "SMBJ43CA")(type "KiCad")(uri "${KICAD_USER_CADFILES}/SMBJ43CA/footprints.pretty")(options "")(descr ""))
   (lib (name "SN65HVD1782QDRQ1")(type "KiCad")(uri "${KICAD_USER_CADFILES}/SN65HVD1782QDRQ1/footprints.pretty")(options "")(descr ""))
+  (lib (name "ADP7158ARDZ_3_3_R7")(type "KiCad")(uri "${KICAD_USER_CADFILES}/ADP7158ARDZ_3_3_R7/footprints.pretty")(options "")(descr ""))
 )

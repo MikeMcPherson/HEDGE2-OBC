@@ -12,4 +12,5 @@
   (lib (name "SN65HVD1782QDRQ1")(type "KiCad")(uri "${KICAD_USER_CADFILES}/SN65HVD1782QDRQ1/SN65HVD1782QDRQ1.kicad_sym")(options "")(descr ""))
   (lib (name "SMBJSeries_LTF")(type "KiCad")(uri "${KICAD_USER_CADFILES}/SMBJ43CA/SMBJSeries_LTF.kicad_sym")(options "")(descr ""))
   (lib (name "CRGP0805F10R")(type "KiCad")(uri "${KICAD_USER_CADFILES}/CRGP0805F10R/CRGP0805F10R.kicad_sym")(options "")(descr ""))
+  (lib (name "ADP7158ARDZ_3_3_R7")(type "KiCad")(uri "${KICAD_USER_CADFILES}/ADP7158ARDZ_3_3_R7/2025-09-17_20-50-30.kicad_sym")(options "")(descr ""))
 )
