@@ -1236,7 +1236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9937a7c9-8f40-4614-90df-f71b44e4d31c")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 212.09 104.14 0)
 			(effects
 				(font
@@ -1368,11 +1368,11 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/740c0668-bfac-47e0-b7b8-de442260ca55"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/9fa6cc5e-a76a-4d58-8af7-47af14171882"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)

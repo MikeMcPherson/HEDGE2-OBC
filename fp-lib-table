@@ -3,7 +3,7 @@
   (lib (name "INA260AIPWR")(type "KiCad")(uri "${KICAD_USER_CADFILES}/ul_INA260AIPWR/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "ESQ-126-39-G-D")(type "KiCad")(uri "${KICAD_USER_CADFILES}/ESQ-126-39-G-D/footprints.pretty")(options "")(descr ""))
   (lib (name "CM4102008")(type "KiCad")(uri "${KICAD_USER_CADFILES}/CM4102008/footprints.pretty")(options "")(descr ""))
-  (lib (name "Novatel")(type "KiCad")(uri "${KICAD_USER_CADFILES}/Novatel.pretty")(options "")(descr ""))
+  (lib (name "OEM719B")(type "KiCad")(uri "${KICAD_USER_CADFILES}/NovAtel OEM719B CAD Non-NDA/footprints.pretty")(options "")(descr ""))
   (lib (name "MCX-J-P-H-ST-SM1")(type "KiCad")(uri "${KICAD_USER_CADFILES}/MCX-J-P-H-ST-SM1/footprints.pretty")(options "")(descr ""))
   (lib (name "54_00175-audio-jack")(type "KiCad")(uri "${KICAD_USER_CADFILES}/54_00175-audio-jack/footprints.pretty")(options "")(descr ""))
   (lib (name "TCAN1046AV")(type "KiCad")(uri "${KICAD_USER_CADFILES}/TCAN1046AVDYYRQ1/footprints.pretty")(options "")(descr ""))
