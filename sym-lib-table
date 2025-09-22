@@ -13,4 +13,5 @@
   (lib (name "CRGP0805F10R")(type "KiCad")(uri "${KICAD_USER_CADFILES}/CRGP0805F10R/CRGP0805F10R.kicad_sym")(options "")(descr ""))
   (lib (name "ADP7158ARDZ_3_3_R7")(type "KiCad")(uri "${KICAD_USER_CADFILES}/ADP7158ARDZ_3_3_R7/2025-09-17_20-50-30.kicad_sym")(options "")(descr ""))
   (lib (name "OEM719B")(type "KiCad")(uri "${KICAD_USER_CADFILES}/NovAtel OEM719B CAD Non-NDA/Novatel.kicad_sym")(options "")(descr ""))
+  (lib (name "TXS0102QDCURQ1")(type "KiCad")(uri "${KICAD_USER_CADFILES}/TXS0102QDCURQ1/TXS0102QDCURQ1.kicad_sym")(options "")(descr ""))
 )

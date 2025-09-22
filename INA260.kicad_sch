@@ -1058,7 +1058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "258e5712-abaa-4c2f-a0df-7f17c4ddfecc")
-		(property "Reference" "C7"
+		(property "Reference" "C9"
 			(at 176.53 106.6864 90)
 			(effects
 				(font
@@ -1146,11 +1146,11 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/740c0668-bfac-47e0-b7b8-de442260ca55"
-					(reference "C8")
+					(reference "C10")
 					(unit 1)
 				)
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/9fa6cc5e-a76a-4d58-8af7-47af14171882"
-					(reference "C7")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -1166,7 +1166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42f1b412-5a71-49b4-bb2d-333da7aee73f")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR064"
 			(at 231.14 152.4 0)
 			(effects
 				(font
@@ -1216,11 +1216,11 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/740c0668-bfac-47e0-b7b8-de442260ca55"
-					(reference "#PWR060")
+					(reference "#PWR066")
 					(unit 1)
 				)
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/9fa6cc5e-a76a-4d58-8af7-47af14171882"
-					(reference "#PWR058")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -1236,7 +1236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9937a7c9-8f40-4614-90df-f71b44e4d31c")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 212.09 104.14 0)
 			(effects
 				(font
@@ -1368,11 +1368,11 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/740c0668-bfac-47e0-b7b8-de442260ca55"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/9fa6cc5e-a76a-4d58-8af7-47af14171882"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -1388,7 +1388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "996e5773-68d8-4eac-95e1-b17a52a7ed30")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR063"
 			(at 182.88 93.98 0)
 			(effects
 				(font
@@ -1439,11 +1439,11 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/740c0668-bfac-47e0-b7b8-de442260ca55"
-					(reference "#PWR059")
+					(reference "#PWR065")
 					(unit 1)
 				)
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/9fa6cc5e-a76a-4d58-8af7-47af14171882"
-					(reference "#PWR057")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)

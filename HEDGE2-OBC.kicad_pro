@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.45,
-          "height": 5.5,
-          "width": 5.5
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,57 +48,13 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|136015000|40854500|653fce41-0580-4919-bf01-1f916f2c15c5|bf644797-7c85-4dbf-8115-adc3914c4f7f",
-          ""
-        ],
-        [
-          "courtyards_overlap|136015000|43605000|228985ba-55c6-4703-ba31-4dcba6b5eef1|653fce41-0580-4919-bf01-1f916f2c15c5",
-          ""
-        ],
-        [
-          "courtyards_overlap|68975000|39007477|653fce41-0580-4919-bf01-1f916f2c15c5|8a60a478-3dc4-481d-8994-98efd1e43b33",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|130235000|116135000|77933f4a-5aa9-4b7c-8530-b6d2d2714b9d|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_overlap|135770000|43850000|1a442331-f0d8-4e4c-b65c-9a4663e4f5c4|41428ee1-f66d-4ba8-83c3-9c0f42f23c53",
-          ""
-        ],
-        [
-          "silk_overlap|135770000|43850000|1a442331-f0d8-4e4c-b65c-9a4663e4f5c4|5b48d28f-130b-406d-8c29-a774d0fd337d",
-          ""
-        ],
-        [
-          "silk_overlap|135770000|43850000|251df8bc-ea43-456f-bb1f-d198dfea2086|41428ee1-f66d-4ba8-83c3-9c0f42f23c53",
-          ""
-        ],
-        [
-          "silk_overlap|69220000|43720000|5b48d28f-130b-406d-8c29-a774d0fd337d|5c960f9c-cbfc-45e3-a712-127831a9a508",
-          ""
-        ],
-        [
-          "silk_overlap|69220000|43850000|251df8bc-ea43-456f-bb1f-d198dfea2086|5b48d28f-130b-406d-8c29-a774d0fd337d",
-          ""
-        ],
-        [
-          "silk_overlap|69220000|43850000|251df8bc-ea43-456f-bb1f-d198dfea2086|95c956d3-4f26-4107-8064-16f09ee5c7f3",
-          ""
-        ],
-        [
-          "silk_overlap|69220000|43850000|5c960f9c-cbfc-45e3-a712-127831a9a508|95c956d3-4f26-4107-8064-16f09ee5c7f3",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
+        "filename": "board_design_settings.json",
         "version": 2
       },
       "rule_severities": {
@@ -155,16 +111,16 @@
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
-        "unconnected_items": "ignore",
+        "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
         "zones_intersect": "error"
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.2032,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.025,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -620,7 +576,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.2032,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -629,42 +585,12 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2147483647,
+        "priority": -1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 12
-      },
-      {
-        "clearance": 0.1,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "RF_GNSS",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -672,24 +598,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Power",
-        "pattern": "+5V_GNSS"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "+5V_MPU"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "+5V_OEM719B"
-      },
-      {
-        "netclass": "RF_GNSS",
-        "pattern": "RF_GNSS"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
