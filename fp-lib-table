@@ -15,4 +15,5 @@
   (lib (name "ADP7158ARDZ_3_3_R7")(type "KiCad")(uri "${KICAD_USER_CADFILES}/ADP7158ARDZ_3_3_R7/footprints.pretty")(options "")(descr ""))
   (lib (name "HEDGElogo")(type "KiCad")(uri "${KICAD_USER_CADFILES}/HEDGE-logo/footprints.pretty")(options "")(descr ""))
   (lib (name "TXS0102QDCURQ1")(type "KiCad")(uri "${KICAD_USER_CADFILES}/TXS0102QDCURQ1/footprints.pretty")(options "")(descr ""))
+  (lib (name "MAX6635MSA_T")(type "KiCad")(uri "${KICAD_USER_CADFILES}/MAX6635MSA_T/footprints.pretty")(options "")(descr ""))
 )
