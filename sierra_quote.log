@@ -1,0 +1,74 @@
+10-02 21:35:37 sierra_kicad_order.action_sierra_quote 1287:Sierra Circuits Quote plugin version: 4.5 started
+10-02 21:35:37 STDOUT 1671:send:
+10-02 21:35:37 STDOUT 1671:b'GET /kicadInfo HTTP/1.1\r\nAccept-Encoding: identity\r\nHost: prodsuperapi.app.protoexpress.com\r\nUser-Agent: Python-urllib/3.11\r\nContent-Type: application/json\r\nConnection: close\r\n\r\n'
+10-02 21:35:37 STDOUT 1671:reply:
+10-02 21:35:37 STDOUT 1671:'HTTP/1.1 200 OK\r\n'
+10-02 21:35:37 STDOUT 1671:header:
+10-02 21:35:37 STDOUT 1671:Server:
+10-02 21:35:37 STDOUT 1671:nginx/1.18.0 (Ubuntu)
+10-02 21:35:37 STDOUT 1671:header:
+10-02 21:35:37 STDOUT 1671:Date:
+10-02 21:35:37 STDOUT 1671:Fri, 03 Oct 2025 01:35:37 GMT
+10-02 21:35:37 STDOUT 1671:header:
+10-02 21:35:37 STDOUT 1671:Content-Type:
+10-02 21:35:37 STDOUT 1671:application/json
+10-02 21:35:37 STDOUT 1671:header:
+10-02 21:35:37 STDOUT 1671:Content-Length:
+10-02 21:35:37 STDOUT 1671:4081
+10-02 21:35:37 STDOUT 1671:header:
+10-02 21:35:37 STDOUT 1671:Connection:
+10-02 21:35:37 STDOUT 1671:close
+10-02 21:35:37 STDOUT 1671:header:
+10-02 21:35:37 STDOUT 1671:Access-Control-Allow-Origin:
+10-02 21:35:37 STDOUT 1671:*
+10-02 21:35:37 STDOUT 1671:header:
+10-02 21:35:37 STDOUT 1671:Strict-Transport-Security:
+10-02 21:35:37 STDOUT 1671:max-age=31536000; includeSubdomains; preload
+10-02 21:35:37 STDOUT 1671:header:
+10-02 21:35:37 STDOUT 1671:X-Frame-Options:
+10-02 21:35:37 STDOUT 1671:SAMEORIGIN
+10-02 21:35:37 STDOUT 1671:header:
+10-02 21:35:37 STDOUT 1671:X-Content-Type-Options:
+10-02 21:35:37 STDOUT 1671:nosniff
+10-02 21:35:37 STDOUT 1671:header:
+10-02 21:35:37 STDOUT 1671:Referrer-Policy:
+10-02 21:35:37 STDOUT 1671:no-referrer
+10-02 21:35:37 STDOUT 1671:header:
+10-02 21:35:37 STDOUT 1671:Content-Security-Policy:
+10-02 21:35:37 STDOUT 1671:object-src
+10-02 21:35:37 STDOUT 1671:send:
+10-02 21:35:37 STDOUT 1671:b'POST /kiprod/client HTTP/1.1\r\nAccept-Encoding: identity\r\nContent-Length: 52\r\nHost: api.protoexpress-api.net\r\nUser-Agent: Python-urllib/3.11\r\nContent-Type: application/json\r\nAuthorization: Basic 436e45cd-9ff9-11f0-9c52-8c884b26e55e\r\nConnection: close\r\n\r\n'
+10-02 21:35:37 STDOUT 1671:send:
+10-02 21:35:37 STDOUT 1671:b'{"client_id":"436e45cd-9ff9-11f0-9c52-8c884b26e55e"}'
+10-02 21:35:38 STDOUT 1671:reply:
+10-02 21:35:38 STDOUT 1671:'HTTP/1.1 200 OK\r\n'
+10-02 21:35:38 STDOUT 1671:header:
+10-02 21:35:38 STDOUT 1671:Date:
+10-02 21:35:38 STDOUT 1671:Fri, 03 Oct 2025 01:35:38 GMT
+10-02 21:35:38 STDOUT 1671:header:
+10-02 21:35:38 STDOUT 1671:Content-Type:
+10-02 21:35:38 STDOUT 1671:application/json
+10-02 21:35:38 STDOUT 1671:header:
+10-02 21:35:38 STDOUT 1671:Content-Length:
+10-02 21:35:38 STDOUT 1671:32
+10-02 21:35:38 STDOUT 1671:header:
+10-02 21:35:38 STDOUT 1671:Connection:
+10-02 21:35:38 STDOUT 1671:close
+10-02 21:35:38 STDOUT 1671:header:
+10-02 21:35:38 STDOUT 1671:x-amzn-RequestId:
+10-02 21:35:38 STDOUT 1671:15d2b3c0-2a38-48c3-8e12-1ab908686603
+10-02 21:35:38 STDOUT 1671:header:
+10-02 21:35:38 STDOUT 1671:Access-Control-Allow-Origin:
+10-02 21:35:38 STDOUT 1671:*
+10-02 21:35:38 STDOUT 1671:header:
+10-02 21:35:38 STDOUT 1671:Access-Control-Allow-Headers:
+10-02 21:35:38 STDOUT 1671:*
+10-02 21:35:38 STDOUT 1671:header:
+10-02 21:35:38 STDOUT 1671:x-amz-apigw-id:
+10-02 21:35:38 STDOUT 1671:R2NAmFKQIAMEtSA=
+10-02 21:35:38 STDOUT 1671:header:
+10-02 21:35:38 STDOUT 1671:Access-Control-Allow-Methods:
+10-02 21:35:38 STDOUT 1671:*
+10-02 21:35:38 STDOUT 1671:header:
+10-02 21:35:38 STDOUT 1671:X-Amzn-Trace-Id:
+10-02 21:35:38 STDOUT 1671:Root=1-68df2869-791bf3114028099962967dac;Parent=69e017b353995efe;Sampled=0;Lineage=2:565c4136:0
