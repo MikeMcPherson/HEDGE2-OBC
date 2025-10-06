@@ -22424,6 +22424,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" "26-DF40HC(3.0)-100DS-0.4V(51)CT-ND"
+			(at 280.67 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ef56e41-6780-4884-bf67-eaa5395872bc")
 		)
@@ -24867,7 +24876,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part Number" "H11615CT-ND"
+		(property "DigiKey Part Number" "26-DF40HC(3.0)-100DS-0.4V(51)CT-ND"
 			(at 241.3 88.9 0)
 			(effects
 				(font
