@@ -16,6 +16,8 @@ _autosave-*
 fp-info-cache
 gerbers/*
 .git/*
+*.stp
+*.step
 
 # Netlist files (exported from Eeschema)
 *.net
