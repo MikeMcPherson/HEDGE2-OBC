@@ -8746,6 +8746,16 @@
 		)
 		(uuid acb9009d-d7e5-4260-932e-c53e5493be3a)
 	)
+	(text "arvitrary text"
+		(exclude_from_sim no)
+		(at 119.634 144.526 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "07a86e95-db54-4263-8d19-dfc6ebe2eef9")
+	)
 	(text "0x48"
 		(exclude_from_sim no)
 		(at 181.61 59.69 0)
