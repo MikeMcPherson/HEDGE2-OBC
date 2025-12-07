@@ -1059,19 +1059,21 @@
 		(fields_autoplaced yes)
 		(uuid "258e5712-abaa-4c2f-a0df-7f17c4ddfecc")
 		(property "Reference" "C9"
-			(at 176.53 106.6864 90)
+			(at 185.42 105.4162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "0.1u"
-			(at 179.07 106.6864 90)
+		(property "Value" "0u1"
+			(at 185.42 107.9562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"

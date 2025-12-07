@@ -1435,7 +1435,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part Number" "720-GA0805Y472KXBBC31GCT-ND"
+		(property "DigiKey Part Number" "490-GRT21BC71H475KE13LCT-ND "
 			(at 260.35 139.7 0)
 			(effects
 				(font
@@ -1664,7 +1664,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part Number" "720-GA0805Y472KXBBC31GCT-ND"
+		(property "DigiKey Part Number" "490-GRT21BC71H475KE13LCT-ND "
 			(at 154.94 142.24 0)
 			(effects
 				(font

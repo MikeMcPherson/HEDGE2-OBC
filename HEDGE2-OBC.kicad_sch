@@ -16119,7 +16119,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part Number" "RMCF0805JT47K0CT-ND"
+		(property "DigiKey Part Number" "541-4131-1-ND "
 			(at 308.61 194.31 0)
 			(effects
 				(font
@@ -16558,6 +16558,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" "1276-1029-1-ND"
+			(at 123.19 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a8f7cb2d-0628-468c-97f5-9616e13bcdb1")
 		)
@@ -16575,16 +16584,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 163.83 95.25 90)
+		(at 163.83 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "216c0a4b-11e2-4d59-bfc4-86b23e025bb0")
 		(property "Reference" "#PWR033"
-			(at 167.64 95.25 0)
+			(at 167.64 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16593,7 +16601,7 @@
 			)
 		)
 		(property "Value" "+5V_CM4"
-			(at 160.02 95.2499 90)
+			(at 160.02 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16602,7 +16610,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 95.25 0)
+			(at 163.83 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16611,7 +16619,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 95.25 0)
+			(at 163.83 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16620,7 +16628,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 163.83 95.25 0)
+			(at 163.83 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17387,7 +17395,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part Number" "541-2.10KCCT-ND"
+		(property "DigiKey Part Number" "541-1.00KCCT-ND "
 			(at 327.66 144.78 0)
 			(effects
 				(font
@@ -17469,7 +17477,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part Number" "RMCF0805JT47K0CT-ND"
+		(property "DigiKey Part Number" "541-4131-1-ND "
 			(at 308.61 185.42 0)
 			(effects
 				(font
@@ -17649,7 +17657,7 @@
 		(at 393.7 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "528374c7-e2cc-4885-8a4b-a9c89b7f306f")
@@ -18189,6 +18197,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" "720-GA0805Y104JXABT31GCT-ND"
+			(at 276.86 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c633a3d-a48c-4b6b-8ab5-77d726ff6477")
 		)
@@ -18480,6 +18497,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 114.3 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "1276-1029-1-ND"
 			(at 114.3 254 0)
 			(effects
 				(font
@@ -19654,7 +19680,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part Number" "541-2.10KCCT-ND"
+		(property "DigiKey Part Number" "541-1.00KCCT-ND "
 			(at 327.66 137.16 0)
 			(effects
 				(font
@@ -20204,7 +20230,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part Number" "RMCF0805JT47K0CT-ND"
+		(property "DigiKey Part Number" "541-4131-1-ND "
 			(at 308.61 212.09 0)
 			(effects
 				(font
@@ -20606,6 +20632,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" "1276-1029-1-ND"
+			(at 17.78 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "371335ac-d540-4777-aff7-6c01ef61bbb5")
 		)
@@ -20832,6 +20867,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 276.86 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "720-GA0805Y104JXABT31GCT-ND"
 			(at 276.86 190.5 0)
 			(effects
 				(font
@@ -21468,16 +21512,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 163.83 97.79 90)
+		(at 163.83 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c022d1bd-874d-4659-8735-2dfa948402ba")
 		(property "Reference" "#PWR034"
-			(at 167.64 97.79 0)
+			(at 167.64 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21486,7 +21529,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 160.02 97.7899 90)
+			(at 160.02 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21495,7 +21538,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 97.79 0)
+			(at 163.83 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21504,7 +21547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 97.79 0)
+			(at 163.83 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21513,7 +21556,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 163.83 97.79 0)
+			(at 163.83 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21604,7 +21647,7 @@
 		(at 406.4 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c40de043-da59-4c81-8d0d-4d4320f9b240")
@@ -22021,7 +22064,7 @@
 		(at 411.48 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d66ac652-0258-4587-ab5b-c4154657897a")
@@ -23679,7 +23722,7 @@
 		(at 397.51 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e73627c3-b1dd-4bfc-b216-d8641b3e87ed")
@@ -24531,6 +24574,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" "541-10.0KCCT-ND "
+			(at 238.76 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "29af0277-4aa9-4fa3-80d7-4d82f6bef96b")
 		)
@@ -24665,7 +24717,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part Number" "RMCF0805JT47K0CT-ND"
+		(property "DigiKey Part Number" "541-4131-1-ND "
 			(at 308.61 203.2 0)
 			(effects
 				(font

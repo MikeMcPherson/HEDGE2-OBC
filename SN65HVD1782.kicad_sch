@@ -2189,6 +2189,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" "541-10.0KCCT-ND "
+			(at 101.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa689c7d-0a10-4723-9afa-8d9d668d63b5")
 		)
@@ -2225,7 +2234,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0u1"
 			(at 146.0563 67.31 90)
 			(effects
 				(font
@@ -2253,6 +2262,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 146.05 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "720-GA0805Y104JXABT31GCT-ND"
+			(at 146.05 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2297,7 +2315,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0u1"
 			(at 146.0563 57.15 90)
 			(effects
 				(font
@@ -2325,6 +2343,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 146.05 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "720-GA0805Y104JXABT31GCT-ND"
+			(at 146.05 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2398,6 +2425,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 101.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "541-10.0KCCT-ND "
 			(at 101.6 95.25 0)
 			(effects
 				(font

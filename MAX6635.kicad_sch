@@ -970,6 +970,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" "720-GA0805Y104JXABT31GCT-ND"
+			(at 234.95 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "37b17ac2-6aed-49dd-a3d6-d53796d40b5a")
 		)
