@@ -5,6 +5,7 @@
 *.000
 *.bak
 *.bck
+*.lck
 *.kicad_pcb-bak
 HEDGE2-OBC-backups/*
 *~
@@ -15,6 +16,8 @@ _autosave-*
 fp-info-cache
 gerbers/*
 .git/*
+*.stp
+*.step
 
 # Netlist files (exported from Eeschema)
 *.net

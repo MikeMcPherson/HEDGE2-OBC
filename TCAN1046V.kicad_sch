@@ -297,24 +297,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "GND1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 0 -5.08 0)
 					(length 7.62)
@@ -344,24 +326,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -10.16 0)
-					(length 7.62)
-					(name "GND2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -532,6 +496,44 @@
 					)
 				)
 			)
+			(symbol "TCAN1046AVDYYRQ1_1_1"
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 			(embedded_fonts no)
 		)
 		(symbol "power:GND"
@@ -637,32 +639,44 @@
 		)
 	)
 	(junction
-		(at 255.27 137.16)
+		(at 265.43 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b1fa760-cb7a-456d-8c00-b3c283c2ae77")
 	)
 	(junction
-		(at 165.1 139.7)
+		(at 158.75 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0dfa9300-5b63-422d-973d-c2053a9dab9b")
 	)
 	(junction
-		(at 254 142.24)
+		(at 158.75 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6348dc0e-8890-4aca-80c8-9bb7ba3dfdc2")
+	)
+	(junction
+		(at 265.43 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9eaf4b7e-e9b1-45ae-9cc7-5d774cf7edad")
+	)
+	(junction
+		(at 265.43 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8b18ce9-be20-4014-83cd-b3cfeb5ef209")
 	)
 	(junction
-		(at 165.1 144.78)
+		(at 158.75 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c394b1dd-e171-46ae-8ad5-06e803aac726")
 	)
 	(wire
 		(pts
-			(xy 161.29 139.7) (xy 165.1 139.7)
+			(xy 154.94 139.7) (xy 158.75 139.7)
 		)
 		(stroke
 			(width 0)
@@ -672,13 +686,23 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 133.35) (xy 186.69 133.35)
+			(xy 158.75 133.35) (xy 186.69 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "070604a0-b96b-4047-aaaa-7b03fa956deb")
+	)
+	(wire
+		(pts
+			(xy 157.48 133.35) (xy 158.75 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0954f91e-19e1-4e91-b2b5-9128dbc3f187")
 	)
 	(wire
 		(pts
@@ -692,7 +716,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 137.16) (xy 259.08 137.16)
+			(xy 265.43 137.16) (xy 270.51 137.16)
 		)
 		(stroke
 			(width 0)
@@ -702,7 +726,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 139.7) (xy 170.18 139.7)
+			(xy 158.75 139.7) (xy 163.83 139.7)
 		)
 		(stroke
 			(width 0)
@@ -712,7 +736,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 137.16) (xy 255.27 137.16)
+			(xy 260.35 137.16) (xy 265.43 137.16)
 		)
 		(stroke
 			(width 0)
@@ -732,7 +756,17 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 142.24) (xy 254 142.24)
+			(xy 265.43 133.35) (xy 265.43 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d956f4f-5be0-45ce-b12d-cdf6e4a0eceb")
+	)
+	(wire
+		(pts
+			(xy 260.35 142.24) (xy 265.43 142.24)
 		)
 		(stroke
 			(width 0)
@@ -762,7 +796,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 142.24) (xy 259.08 142.24)
+			(xy 265.43 142.24) (xy 270.51 142.24)
 		)
 		(stroke
 			(width 0)
@@ -782,6 +816,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 135.89) (xy 237.49 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ffa59fe-44e2-4186-a6f5-c1c469d5c6b9")
+	)
+	(wire
+		(pts
 			(xy 237.49 138.43) (xy 238.76 138.43)
 		)
 		(stroke
@@ -792,13 +836,23 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 144.78) (xy 165.1 144.78)
+			(xy 154.94 144.78) (xy 158.75 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a3af13db-699d-4f28-aeb9-3ea3d7dd8738")
+	)
+	(wire
+		(pts
+			(xy 265.43 135.89) (xy 265.43 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a689191a-653d-4589-b054-7b4de46f403a")
 	)
 	(wire
 		(pts
@@ -812,16 +866,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 135.89) (xy 255.27 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb9093bc-790d-4300-9b4c-f92707a00f48")
-	)
-	(wire
-		(pts
 			(xy 237.49 133.35) (xy 238.76 133.35)
 		)
 		(stroke
@@ -832,7 +876,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 144.78) (xy 170.18 144.78)
+			(xy 158.75 144.78) (xy 163.83 144.78)
 		)
 		(stroke
 			(width 0)
@@ -849,16 +893,6 @@
 			(type default)
 		)
 		(uuid "ce1583c7-1f4b-416a-a0ea-d8665ce65154")
-	)
-	(wire
-		(pts
-			(xy 237.49 135.89) (xy 255.27 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d40fd431-bba1-46f2-b035-eb5c6527e409")
 	)
 	(wire
 		(pts
@@ -892,7 +926,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 139.7) (xy 165.1 133.35)
+			(xy 158.75 139.7) (xy 158.75 133.35)
 		)
 		(stroke
 			(width 0)
@@ -990,7 +1024,7 @@
 	)
 	(hierarchical_label "VIO"
 		(shape input)
-		(at 255.27 135.89 0)
+		(at 265.43 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1001,7 +1035,7 @@
 	)
 	(hierarchical_label "VCC"
 		(shape input)
-		(at 165.1 133.35 180)
+		(at 157.48 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1042,7 +1076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2159a940-6223-4154-96c9-d23af093e341")
-		(property "Reference" "U6"
+		(property "Reference" "U8"
 			(at 212.09 118.11 0)
 			(effects
 				(font
@@ -1068,7 +1102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tcan1046av-q1"
 			(at 186.69 128.27 0)
 			(effects
 				(font
@@ -1159,7 +1193,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/d3868309-a946-47d2-bb65-3f159979e5fb"
-					(reference "U6")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -1175,7 +1209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2916d860-81a3-4a0a-8a3d-52ca1739b81a")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR078"
 			(at 179.07 130.81 0)
 			(effects
 				(font
@@ -1226,7 +1260,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/d3868309-a946-47d2-bb65-3f159979e5fb"
-					(reference "#PWR072")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -1234,7 +1268,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 259.08 139.7 0)
+		(at 270.51 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1242,8 +1276,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5546faf1-8c6e-4baa-a932-45e4ca1d3dbe")
-		(property "Reference" "C16"
-			(at 261.62 138.4362 0)
+		(property "Reference" "C18"
+			(at 273.05 138.4362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1252,7 +1286,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 261.62 140.9762 0)
+			(at 273.05 140.9762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1261,7 +1295,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 259.08 139.7 0)
+			(at 270.51 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1270,7 +1304,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 139.7 0)
+			(at 270.51 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1279,7 +1313,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 259.08 139.7 0)
+			(at 270.51 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1288,7 +1322,7 @@
 			)
 		)
 		(property "Field8" ""
-			(at 259.08 139.7 0)
+			(at 270.51 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1297,7 +1331,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 259.08 139.7 0)
+			(at 270.51 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1306,7 +1340,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "720-GA0805Y104JXABT31GCT-ND"
-			(at 259.08 139.7 0)
+			(at 270.51 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1323,7 +1357,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/d3868309-a946-47d2-bb65-3f159979e5fb"
-					(reference "C16")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -1331,16 +1365,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 250.19 139.7 0)
+		(at 260.35 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "72a3258c-da12-41f2-b17a-1249b1f668f5")
-		(property "Reference" "C15"
-			(at 252.73 138.4362 0)
+		(property "Reference" "C17"
+			(at 254 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1349,7 +1382,7 @@
 			)
 		)
 		(property "Value" "4u7"
-			(at 252.73 140.9762 0)
+			(at 254 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1358,7 +1391,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 250.19 139.7 0)
+			(at 260.35 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1367,7 +1400,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 139.7 0)
+			(at 260.35 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1376,7 +1409,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 250.19 139.7 0)
+			(at 260.35 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1385,7 +1418,7 @@
 			)
 		)
 		(property "Field8" ""
-			(at 250.19 139.7 0)
+			(at 260.35 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1394,7 +1427,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 250.19 139.7 0)
+			(at 260.35 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1402,8 +1435,8 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part Number" "720-GA0805Y472KXBBC31GCT-ND"
-			(at 250.19 139.7 0)
+		(property "DigiKey Part Number" "490-GRT21BC71H475KE13LCT-ND "
+			(at 260.35 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1420,7 +1453,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/d3868309-a946-47d2-bb65-3f159979e5fb"
-					(reference "C15")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -1428,7 +1461,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 144.78 0)
+		(at 158.75 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1436,8 +1469,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8135e28d-cd23-4cd8-ad1d-0fc5d3f6f8c3")
-		(property "Reference" "#PWR071"
-			(at 165.1 151.13 0)
+		(property "Reference" "#PWR077"
+			(at 158.75 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1446,7 +1479,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 149.86 0)
+			(at 158.75 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1454,7 +1487,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 144.78 0)
+			(at 158.75 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1463,7 +1496,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 144.78 0)
+			(at 158.75 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1472,7 +1505,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 144.78 0)
+			(at 158.75 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1486,7 +1519,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/d3868309-a946-47d2-bb65-3f159979e5fb"
-					(reference "#PWR071")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -1502,7 +1535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "860b3666-0fb9-4d60-bc31-157c4b6055ee")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR079"
 			(at 179.07 138.43 0)
 			(effects
 				(font
@@ -1553,7 +1586,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/d3868309-a946-47d2-bb65-3f159979e5fb"
-					(reference "#PWR073")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -1561,16 +1594,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 161.29 142.24 0)
+		(at 154.94 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b1c11644-134a-4c36-9d40-249fefdf726c")
-		(property "Reference" "C13"
-			(at 163.83 140.9762 0)
+		(property "Reference" "C15"
+			(at 148.59 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1579,7 +1611,7 @@
 			)
 		)
 		(property "Value" "4u7"
-			(at 163.83 143.5162 0)
+			(at 148.59 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1588,7 +1620,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 161.29 142.24 0)
+			(at 154.94 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1597,7 +1629,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 142.24 0)
+			(at 154.94 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1606,7 +1638,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 161.29 142.24 0)
+			(at 154.94 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1615,7 +1647,7 @@
 			)
 		)
 		(property "Field8" ""
-			(at 161.29 142.24 0)
+			(at 154.94 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1624,7 +1656,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 161.29 142.24 0)
+			(at 154.94 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1632,8 +1664,8 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part Number" "720-GA0805Y472KXBBC31GCT-ND"
-			(at 161.29 142.24 0)
+		(property "DigiKey Part Number" "490-GRT21BC71H475KE13LCT-ND "
+			(at 154.94 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1650,7 +1682,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/d3868309-a946-47d2-bb65-3f159979e5fb"
-					(reference "C13")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -1658,7 +1690,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 170.18 142.24 0)
+		(at 163.83 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1666,8 +1698,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d90c3e76-0624-43df-926e-30451dc9fe68")
-		(property "Reference" "C14"
-			(at 172.72 140.9762 0)
+		(property "Reference" "C16"
+			(at 166.37 140.9762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1676,7 +1708,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 172.72 143.5162 0)
+			(at 166.37 143.5162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1685,7 +1717,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 170.18 142.24 0)
+			(at 163.83 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1694,7 +1726,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 142.24 0)
+			(at 163.83 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1703,7 +1735,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 170.18 142.24 0)
+			(at 163.83 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1712,7 +1744,7 @@
 			)
 		)
 		(property "Field8" ""
-			(at 170.18 142.24 0)
+			(at 163.83 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1721,7 +1753,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 170.18 142.24 0)
+			(at 163.83 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1730,7 +1762,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "720-GA0805Y104JXABT31GCT-ND"
-			(at 170.18 142.24 0)
+			(at 163.83 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1747,7 +1779,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/d3868309-a946-47d2-bb65-3f159979e5fb"
-					(reference "C14")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -1755,7 +1787,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 254 142.24 0)
+		(at 265.43 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1763,8 +1795,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f93ba59d-c750-4877-91b8-2bb9e90f61e7")
-		(property "Reference" "#PWR074"
-			(at 254 148.59 0)
+		(property "Reference" "#PWR080"
+			(at 265.43 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1773,7 +1805,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254 147.32 0)
+			(at 265.43 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1781,7 +1813,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 142.24 0)
+			(at 265.43 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1790,7 +1822,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 142.24 0)
+			(at 265.43 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1799,7 +1831,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 142.24 0)
+			(at 265.43 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1813,7 +1845,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/d3868309-a946-47d2-bb65-3f159979e5fb"
-					(reference "#PWR074")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
