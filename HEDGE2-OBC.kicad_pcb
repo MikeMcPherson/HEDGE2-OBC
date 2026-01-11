@@ -3952,7 +3952,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "354ae4f3-046e-4917-9133-370a51224804")
-		(at 140.725 135.9)
+		(at 186.1 116.9)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP5"
@@ -8850,7 +8850,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "2ae58a88-6117-4091-9bdb-df11efe74a0e")
 		)
 		(pad "2" smd rect
@@ -8860,7 +8859,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "13d61eac-2069-4dd5-95af-eb3c950d6838")
 		)
 		(pad "3" smd rect
@@ -8870,7 +8868,6 @@
 			(net 143 "unconnected-(Module1A-Ethernet_Pair3_P-Pad3)")
 			(pinfunction "Ethernet_Pair3_P")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "36df55d1-eebf-4b03-9e29-39cb41a74ab6")
 		)
 		(pad "4" smd rect
@@ -8880,7 +8877,6 @@
 			(net 131 "unconnected-(Module1A-Ethernet_Pair1_P-Pad4)")
 			(pinfunction "Ethernet_Pair1_P")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "24c32ee5-9b23-45fe-929a-565407a88ac7")
 		)
 		(pad "5" smd rect
@@ -8890,7 +8886,6 @@
 			(net 224 "unconnected-(Module1A-Ethernet_Pair3_N-Pad5)")
 			(pinfunction "Ethernet_Pair3_N")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "e915d23e-a63b-491d-9d4d-018fd923e7b1")
 		)
 		(pad "6" smd rect
@@ -8900,7 +8895,6 @@
 			(net 141 "unconnected-(Module1A-Ethernet_Pair1_N-Pad6)")
 			(pinfunction "Ethernet_Pair1_N")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "35525093-b4d0-4ba6-af2b-5b2ea78b5e3b")
 		)
 		(pad "7" smd rect
@@ -8910,7 +8904,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "41a528a2-92d2-4285-8867-9706b39419e3")
 		)
 		(pad "8" smd rect
@@ -8920,7 +8913,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "d185b0f1-cffc-4078-849e-27aa94bed17f")
 		)
 		(pad "9" smd rect
@@ -8930,7 +8922,6 @@
 			(net 119 "unconnected-(Module1A-Ethernet_Pair2_N-Pad9)")
 			(pinfunction "Ethernet_Pair2_N")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "10102036-40f3-4765-8cd0-37c58b6c5c0b")
 		)
 		(pad "10" smd rect
@@ -8940,7 +8931,6 @@
 			(net 154 "unconnected-(Module1A-Ethernet_Pair0_N-Pad10)")
 			(pinfunction "Ethernet_Pair0_N")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "4da4ebb8-5622-4c75-bd7b-61d62df3584b")
 		)
 		(pad "11" smd rect
@@ -8950,7 +8940,6 @@
 			(net 185 "unconnected-(Module1A-Ethernet_Pair2_P-Pad11)")
 			(pinfunction "Ethernet_Pair2_P")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "8f68db99-2adb-49ca-b45f-6efc4dda4bc4")
 		)
 		(pad "12" smd rect
@@ -8960,7 +8949,6 @@
 			(net 189 "unconnected-(Module1A-Ethernet_Pair0_P-Pad12)")
 			(pinfunction "Ethernet_Pair0_P")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "965d2c3f-46f7-42ab-a202-791cc07df7c6")
 		)
 		(pad "13" smd rect
@@ -8970,7 +8958,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "97d40407-4d81-4271-8a11-b2dc0340c8d8")
 		)
 		(pad "14" smd rect
@@ -8980,7 +8967,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "a74103c2-cc1b-4540-8bb3-3958e23023e2")
 		)
 		(pad "15" smd rect
@@ -8990,7 +8976,6 @@
 			(net 195 "unconnected-(Module1A-Ethernet_nLED3(3.3v)-Pad15)")
 			(pinfunction "Ethernet_nLED3(3.3v)")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "a52c49b0-2a24-4f81-8a89-50f6cecaab75")
 		)
 		(pad "16" smd rect
@@ -9000,7 +8985,6 @@
 			(net 164 "unconnected-(Module1A-Ethernet_SYNC_IN(1.8v)-Pad16)")
 			(pinfunction "Ethernet_SYNC_IN(1.8v)")
 			(pintype "input+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "64b84001-c36c-4b3f-875a-21fc94220027")
 		)
 		(pad "17" smd rect
@@ -9010,7 +8994,6 @@
 			(net 130 "unconnected-(Module1A-Ethernet_nLED2(3.3v)-Pad17)")
 			(pinfunction "Ethernet_nLED2(3.3v)")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "21fc9050-357e-4c2a-b1dc-d13fd2330454")
 		)
 		(pad "18" smd rect
@@ -9020,7 +9003,6 @@
 			(net 233 "unconnected-(Module1A-Ethernet_SYNC_OUT(1.8v)-Pad18)")
 			(pinfunction "Ethernet_SYNC_OUT(1.8v)")
 			(pintype "input+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "f807d928-ca6a-42b1-bdc4-5eabbb7b6660")
 		)
 		(pad "19" smd rect
@@ -9030,7 +9012,6 @@
 			(net 197 "unconnected-(Module1A-Ethernet_nLED1(3.3v)-Pad19)")
 			(pinfunction "Ethernet_nLED1(3.3v)")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "aab7cd2c-e236-4613-bbde-11b619d3311c")
 		)
 		(pad "20" smd rect
@@ -9040,7 +9021,6 @@
 			(net 166 "unconnected-(Module1A-EEPROM_nWP-Pad20)")
 			(pinfunction "EEPROM_nWP")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "69b9c82d-40f8-4ba2-a0a4-684b53891af5")
 		)
 		(pad "21" smd rect
@@ -9050,7 +9030,6 @@
 			(net 120 "/PI_nLED_Activity")
 			(pinfunction "PI_nLED_Activity")
 			(pintype "open_collector")
-			(solder_mask_margin 0.102)
 			(uuid "12d69fff-48b6-4439-bfd0-4e29f957a08b")
 		)
 		(pad "22" smd rect
@@ -9060,7 +9039,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "16eb4edd-aac7-4910-ae4d-10ee4e927f27")
 		)
 		(pad "23" smd rect
@@ -9070,7 +9048,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "340700b4-1c49-4ebd-9d0f-ed112ec050e3")
 		)
 		(pad "24" smd rect
@@ -9080,7 +9057,6 @@
 			(net 222 "unconnected-(Module1A-GPIO26-Pad24)")
 			(pinfunction "GPIO26")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "e5436bad-106e-419f-8b3e-51b370b6df94")
 		)
 		(pad "25" smd rect
@@ -9090,7 +9066,6 @@
 			(net 235 "unconnected-(Module1A-GPIO21-Pad25)")
 			(pinfunction "GPIO21")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "fc3f8633-343b-4630-83a2-09804c70671e")
 		)
 		(pad "26" smd rect
@@ -9100,7 +9075,6 @@
 			(net 174 "/UART_SCI_DIR")
 			(pinfunction "GPIO19")
 			(pintype "passive")
-			(solder_mask_margin 0.102)
 			(uuid "4d0fd611-877f-426f-b24b-27b7e641ab46")
 		)
 		(pad "27" smd rect
@@ -9110,7 +9084,6 @@
 			(net 156 "unconnected-(Module1A-GPIO20-Pad27)")
 			(pinfunction "GPIO20")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "54d902f9-809a-4ad4-8ac0-ad3c17a36536")
 		)
 		(pad "28" smd rect
@@ -9120,7 +9093,6 @@
 			(net 175 "/UART_SCI_B")
 			(pinfunction "GPIO13")
 			(pintype "passive")
-			(solder_mask_margin 0.102)
 			(uuid "7d7665ef-b31e-4f0d-8cee-400a40c3cd53")
 		)
 		(pad "29" smd rect
@@ -9130,7 +9102,6 @@
 			(net 260 "unconnected-(Module1A-GPIO16-Pad29)")
 			(pinfunction "GPIO16")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "74d74d28-c86b-4b70-90c2-97a564d70707")
 		)
 		(pad "30" smd rect
@@ -9140,7 +9111,6 @@
 			(net 248 "/I2C_EN")
 			(pinfunction "GPIO6")
 			(pintype "passive")
-			(solder_mask_margin 0.102)
 			(uuid "c748d078-3d29-4371-b9a9-d3ba0048bc17")
 		)
 		(pad "31" smd rect
@@ -9150,7 +9120,6 @@
 			(net 140 "/UART_SCI_A")
 			(pinfunction "GPIO12")
 			(pintype "passive")
-			(solder_mask_margin 0.102)
 			(uuid "33b3beb1-1116-4ea4-8289-97257108b5c3")
 		)
 		(pad "32" smd rect
@@ -9160,7 +9129,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "ba222fee-3357-4301-a939-78dac331d66e")
 		)
 		(pad "33" smd rect
@@ -9170,7 +9138,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "6bd6ee5b-a139-4f5b-8acd-91864f40324c")
 		)
 		(pad "34" smd rect
@@ -9180,7 +9147,6 @@
 			(net 111 "/GNSS_RXD2")
 			(pinfunction "GPIO5")
 			(pintype "passive")
-			(solder_mask_margin 0.102)
 			(uuid "0235d0e0-c1c5-4310-ba2a-d4067ba17046")
 		)
 		(pad "35" smd rect
@@ -9190,7 +9156,6 @@
 			(net 162 "/CAN_B_RXD")
 			(pinfunction "ID_SC")
 			(pintype "passive")
-			(solder_mask_margin 0.102)
 			(uuid "60874509-77c6-4307-a614-e43e8ca88768")
 		)
 		(pad "36" smd rect
@@ -9200,7 +9165,6 @@
 			(net 216 "/CAN_B_TXD")
 			(pinfunction "ID_SD")
 			(pintype "passive")
-			(solder_mask_margin 0.102)
 			(uuid "dd136216-404e-4068-8e6d-87bc321d633a")
 		)
 		(pad "37" smd rect
@@ -9210,7 +9174,6 @@
 			(net 125 "/CAN_B_S")
 			(pinfunction "GPIO7")
 			(pintype "passive")
-			(solder_mask_margin 0.102)
 			(uuid "afa0cad9-d464-4f1c-b8ea-a2e99410b248")
 		)
 		(pad "38" smd rect
@@ -9220,7 +9183,6 @@
 			(net 258 "unconnected-(Module1A-GPIO11-Pad38)")
 			(pinfunction "GPIO11")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "0e98dfc3-9067-4c42-a228-618c415e94a3")
 		)
 		(pad "39" smd rect
@@ -9230,7 +9192,6 @@
 			(net 255 "/UART_COMM_A")
 			(pinfunction "GPIO8")
 			(pintype "passive")
-			(solder_mask_margin 0.102)
 			(uuid "fd22d031-74f8-4d0c-bc78-a2909b4bd6ab")
 		)
 		(pad "40" smd rect
@@ -9240,7 +9201,6 @@
 			(net 208 "/UART_COMM_B")
 			(pinfunction "GPIO9")
 			(pintype "passive")
-			(solder_mask_margin 0.102)
 			(uuid "985608b3-d5ed-4b69-a38a-841af7f3c871")
 		)
 		(pad "41" smd rect
@@ -9250,7 +9210,6 @@
 			(net 108 "/UART_COMM_DIR")
 			(pinfunction "GPIO25")
 			(pintype "passive")
-			(solder_mask_margin 0.102)
 			(uuid "199f7c99-45eb-4164-9b29-b93bcbbb9bb6")
 		)
 		(pad "42" smd rect
@@ -9260,7 +9219,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "5ffb9dff-9a67-4b2c-8918-7a2a7b1be882")
 		)
 		(pad "43" smd rect
@@ -9270,7 +9228,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "e5ebf032-1b80-4fb9-95a8-482404e22e82")
 		)
 		(pad "44" smd rect
@@ -9280,7 +9237,6 @@
 			(net 137 "unconnected-(Module1A-GPIO10-Pad44)")
 			(pinfunction "GPIO10")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "30caa0d7-1a78-4183-87a8-2bba89b15977")
 		)
 		(pad "45" smd rect
@@ -9290,7 +9246,6 @@
 			(net 257 "unconnected-(Module1A-GPIO24-Pad45)")
 			(pinfunction "GPIO24")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "74e64af5-a815-4aad-890e-225c3c4e7fd1")
 		)
 		(pad "46" smd rect
@@ -9300,7 +9255,6 @@
 			(net 190 "/GNSS_PPS")
 			(pinfunction "GPIO22")
 			(pintype "passive")
-			(solder_mask_margin 0.102)
 			(uuid "9690fb47-f107-4e0a-9297-90a3610f66af")
 		)
 		(pad "47" smd rect
@@ -9310,7 +9264,6 @@
 			(net 256 "unconnected-(Module1A-GPIO23-Pad47)")
 			(pinfunction "GPIO23")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "00adccd4-2168-4642-8658-d22f2343ea49")
 		)
 		(pad "48" smd rect
@@ -9320,7 +9273,6 @@
 			(net 116 "/GNSS_NRESET_IN")
 			(pinfunction "GPIO27")
 			(pintype "passive")
-			(solder_mask_margin 0.102)
 			(uuid "8fc7d505-6fb1-4bbb-af19-e2fe0eadd4c0")
 		)
 		(pad "49" smd rect
@@ -9330,7 +9282,6 @@
 			(net 173 "/CAN_A_S")
 			(pinfunction "GPIO18")
 			(pintype "passive")
-			(solder_mask_margin 0.102)
 			(uuid "2cf50737-8172-4e61-a063-6093536fef64")
 		)
 		(pad "50" smd rect
@@ -9340,7 +9291,6 @@
 			(net 182 "/GNSS_PV")
 			(pinfunction "GPIO17")
 			(pintype "passive")
-			(solder_mask_margin 0.102)
 			(uuid "88aa921b-c69a-4c2f-8fbc-965fd30275c5")
 		)
 		(pad "51" smd rect
@@ -9350,7 +9300,6 @@
 			(net 114 "/CAN_A_RXD")
 			(pinfunction "GPIO15")
 			(pintype "passive")
-			(solder_mask_margin 0.102)
 			(uuid "0960af77-c9b3-44a5-95a1-1a1e27b9d8b5")
 		)
 		(pad "52" smd rect
@@ -9360,7 +9309,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "7b1199f0-e24e-41e6-b8bf-17548d3472e9")
 		)
 		(pad "53" smd rect
@@ -9370,7 +9318,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "bb914217-b71b-4c0c-b2ed-785281b23066")
 		)
 		(pad "54" smd rect
@@ -9380,7 +9327,6 @@
 			(net 172 "/GNSS_TXD2")
 			(pinfunction "GPIO4")
 			(pintype "passive")
-			(solder_mask_margin 0.102)
 			(uuid "7395aec8-18d4-48b2-a26c-b44762ad96a0")
 		)
 		(pad "55" smd rect
@@ -9390,7 +9336,6 @@
 			(net 132 "/CAN_A_TXD")
 			(pinfunction "GPIO14")
 			(pintype "passive")
-			(solder_mask_margin 0.102)
 			(uuid "257810a9-18b3-42fd-9885-464ae920722a")
 		)
 		(pad "56" smd rect
@@ -9400,7 +9345,6 @@
 			(net 219 "unconnected-(Module1A-GPIO3-Pad56)")
 			(pinfunction "GPIO3")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "e261f252-d52c-4603-b64f-b1a5492d6d43")
 		)
 		(pad "57" smd rect
@@ -9410,7 +9354,6 @@
 			(net 201 "unconnected-(Module1A-SD_CLK-Pad57)")
 			(pinfunction "SD_CLK")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "b826eeb2-f390-4cce-8470-5023ce844508")
 		)
 		(pad "58" smd rect
@@ -9420,7 +9363,6 @@
 			(net 259 "unconnected-(Module1A-GPIO2-Pad58)")
 			(pinfunction "GPIO2")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "17048c16-2e63-4f2e-943c-3f6f4da819e2")
 		)
 		(pad "59" smd rect
@@ -9430,7 +9372,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "ceca5006-d5f0-4304-bd5b-11cb2809503f")
 		)
 		(pad "60" smd rect
@@ -9440,7 +9381,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "9a163584-fc76-4d4c-8429-6de1e99b6442")
 		)
 		(pad "61" smd rect
@@ -9450,7 +9390,6 @@
 			(net 214 "unconnected-(Module1A-SD_DAT3-Pad61)")
 			(pinfunction "SD_DAT3")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "dcc9e8af-7926-4aaa-9ca7-81a50fea63fe")
 		)
 		(pad "62" smd rect
@@ -9460,7 +9399,6 @@
 			(net 167 "unconnected-(Module1A-SD_CMD-Pad62)")
 			(pinfunction "SD_CMD")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "6b1642ef-d990-4632-8f5d-538c998c2d6f")
 		)
 		(pad "63" smd rect
@@ -9470,7 +9408,6 @@
 			(net 196 "unconnected-(Module1A-SD_DAT0-Pad63)")
 			(pinfunction "SD_DAT0")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "aa6800e2-ad9e-445c-b3b2-ca3081c7eedd")
 		)
 		(pad "64" smd rect
@@ -9480,7 +9417,6 @@
 			(net 138 "unconnected-(Module1A-SD_DAT5-Pad64)")
 			(pinfunction "SD_DAT5")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "30cab1f0-39bd-4732-b59e-be0b9ff0eec1")
 		)
 		(pad "65" smd rect
@@ -9490,7 +9426,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "5540e1b9-366d-479b-8348-f178b4e73281")
 		)
 		(pad "66" smd rect
@@ -9500,7 +9435,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "ddf174fa-f871-40b9-9a2c-653464bb4291")
 		)
 		(pad "67" smd rect
@@ -9510,7 +9444,6 @@
 			(net 160 "unconnected-(Module1A-SD_DAT1-Pad67)")
 			(pinfunction "SD_DAT1")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "5c0a8134-34f6-4209-9842-1d9a46bf539c")
 		)
 		(pad "68" smd rect
@@ -9520,7 +9453,6 @@
 			(net 183 "unconnected-(Module1A-SD_DAT4-Pad68)")
 			(pinfunction "SD_DAT4")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "8a264012-d639-4d26-9313-5736304a40a7")
 		)
 		(pad "69" smd rect
@@ -9530,7 +9462,6 @@
 			(net 232 "unconnected-(Module1A-SD_DAT2-Pad69)")
 			(pinfunction "SD_DAT2")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "f5c9c86d-ef1b-4823-87c5-5d0ed8e288db")
 		)
 		(pad "70" smd rect
@@ -9540,7 +9471,6 @@
 			(net 211 "unconnected-(Module1A-SD_DAT7-Pad70)")
 			(pinfunction "SD_DAT7")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "cc1fee68-bfbf-4f04-9e93-248103f16458")
 		)
 		(pad "71" smd rect
@@ -9550,7 +9480,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "5672e73f-219a-42ec-80e7-80f90e042d53")
 		)
 		(pad "72" smd rect
@@ -9560,7 +9489,6 @@
 			(net 169 "unconnected-(Module1A-SD_DAT6-Pad72)")
 			(pinfunction "SD_DAT6")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "6d0f56c1-520b-4b6d-8040-2cab5d652706")
 		)
 		(pad "73" smd rect
@@ -9570,7 +9498,6 @@
 			(net 121 "unconnected-(Module1A-SD_VDD_Override-Pad73)")
 			(pinfunction "SD_VDD_Override")
 			(pintype "input+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "148c8afc-dc3c-49eb-9da5-d5d53de5277b")
 		)
 		(pad "74" smd rect
@@ -9580,7 +9507,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "479589ef-f559-4232-aa97-ea4f63cc41ef")
 		)
 		(pad "75" smd rect
@@ -9590,7 +9516,6 @@
 			(net 168 "unconnected-(Module1A-SD_PWR_ON-Pad75)")
 			(pinfunction "SD_PWR_ON")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "6c592f0d-8d5e-4c0d-a60f-00bc9c6d887c")
 		)
 		(pad "76" smd rect
@@ -9600,7 +9525,6 @@
 			(net 159 "unconnected-(Module1A-Reserved-Pad76)")
 			(pinfunction "Reserved")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "56c9e7e6-ed50-4919-8e5f-5d3fa07af8a8")
 		)
 		(pad "77" smd rect
@@ -9610,7 +9534,6 @@
 			(net 43 "+5V_CM4")
 			(pinfunction "+5v_(Input)")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "e405461e-db7d-4573-a14d-8d29c675933b")
 		)
 		(pad "78" smd rect
@@ -9620,7 +9543,6 @@
 			(net 24 "+3V3")
 			(pinfunction "GPIO_VREF(1.8v/3.3v_Input)")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "ecd1448e-b690-418f-8a0e-70457270358b")
 		)
 		(pad "79" smd rect
@@ -9630,7 +9552,6 @@
 			(net 43 "+5V_CM4")
 			(pinfunction "+5v_(Input)")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "6715b21b-e285-4280-a3ae-a00147e91cc0")
 		)
 		(pad "80" smd rect
@@ -9640,7 +9561,6 @@
 			(net 246 "/SCL0_3V3")
 			(pinfunction "SCL0")
 			(pintype "passive")
-			(solder_mask_margin 0.102)
 			(uuid "5eab3c3a-8ea1-4761-8b95-be18b20ee3c0")
 		)
 		(pad "81" smd rect
@@ -9650,7 +9570,6 @@
 			(net 43 "+5V_CM4")
 			(pinfunction "+5v_(Input)")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "ef193f3d-fc2d-44ff-a45b-432c550cb4d7")
 		)
 		(pad "82" smd rect
@@ -9660,7 +9579,6 @@
 			(net 247 "/SDA0_3V3")
 			(pinfunction "SDA0")
 			(pintype "passive")
-			(solder_mask_margin 0.102)
 			(uuid "e6270c55-1a82-4013-a8fb-fb1220978060")
 		)
 		(pad "83" smd rect
@@ -9670,7 +9588,6 @@
 			(net 43 "+5V_CM4")
 			(pinfunction "+5v_(Input)")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "7aecf8a9-6e0f-4d41-b7f2-3d9ff56bdf68")
 		)
 		(pad "84" smd rect
@@ -9680,7 +9597,6 @@
 			(net 24 "+3V3")
 			(pinfunction "+3.3v_(Output)")
 			(pintype "power_out")
-			(solder_mask_margin 0.102)
 			(uuid "d19d6670-0ea3-4448-b53a-c82c6268fc3d")
 		)
 		(pad "85" smd rect
@@ -9690,7 +9606,6 @@
 			(net 43 "+5V_CM4")
 			(pinfunction "+5v_(Input)")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "47948bb7-072b-4ef3-8875-3873d2549e6b")
 		)
 		(pad "86" smd rect
@@ -9700,7 +9615,6 @@
 			(net 24 "+3V3")
 			(pinfunction "+3.3v_(Output)")
 			(pintype "power_out")
-			(solder_mask_margin 0.102)
 			(uuid "1f719a69-3973-4600-b400-235ecbed6800")
 		)
 		(pad "87" smd rect
@@ -9710,7 +9624,6 @@
 			(net 43 "+5V_CM4")
 			(pinfunction "+5v_(Input)")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "115599d2-9625-4c04-8ba9-4ecda7e46319")
 		)
 		(pad "88" smd rect
@@ -9720,7 +9633,6 @@
 			(net 194 "unconnected-(Module1A-+1.8v_(Output)-Pad88)")
 			(pinfunction "+1.8v_(Output)")
 			(pintype "power_out+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "a0b14af1-7440-4d2d-8ba5-d2075eae4854")
 		)
 		(pad "89" smd rect
@@ -9730,7 +9642,6 @@
 			(net 126 "Net-(Module1A-WiFi_nDisable)")
 			(pinfunction "WiFi_nDisable")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "174fdaf8-ae1f-4495-bd62-3295a6b18f8f")
 		)
 		(pad "90" smd rect
@@ -9740,7 +9651,6 @@
 			(net 115 "unconnected-(Module1A-+1.8v_(Output)-Pad90)")
 			(pinfunction "+1.8v_(Output)")
 			(pintype "power_out+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "0a6fa1c0-b23f-4536-9fd8-264a51a78bd0")
 		)
 		(pad "91" smd rect
@@ -9750,7 +9660,6 @@
 			(net 112 "Net-(Module1A-BT_nDisable)")
 			(pinfunction "BT_nDisable")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "04f22e5a-b591-4127-bb75-3cc1d999f699")
 		)
 		(pad "92" smd rect
@@ -9760,7 +9669,6 @@
 			(net 186 "unconnected-(Module1A-RUN_PG-Pad92)")
 			(pinfunction "RUN_PG")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "94c70a71-fd2e-486f-a211-381c14406276")
 		)
 		(pad "93" smd rect
@@ -9770,7 +9678,6 @@
 			(net 177 "unconnected-(Module1A-nRPIBOOT-Pad93)")
 			(pinfunction "nRPIBOOT")
 			(pintype "input+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "7ed9c268-59aa-44a4-99dd-80335d3395b0")
 		)
 		(pad "94" smd rect
@@ -9780,7 +9687,6 @@
 			(net 206 "unconnected-(Module1A-AnalogIP0-Pad94)")
 			(pinfunction "AnalogIP0")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "c11b7740-c9ff-4399-8810-ab7b37c29117")
 		)
 		(pad "95" smd rect
@@ -9790,7 +9696,6 @@
 			(net 187 "/nPWR_LED")
 			(pinfunction "nPI_LED_PWR")
 			(pintype "output")
-			(solder_mask_margin 0.102)
 			(uuid "94e7a223-d565-401b-95bd-37f11c9dadd6")
 		)
 		(pad "96" smd rect
@@ -9800,7 +9705,6 @@
 			(net 161 "unconnected-(Module1A-AnalogIP1-Pad96)")
 			(pinfunction "AnalogIP1")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "5d25198b-b843-477d-9601-16af5695523a")
 		)
 		(pad "97" smd rect
@@ -9810,7 +9714,6 @@
 			(net 236 "unconnected-(Module1A-Camera_GPIO-Pad97)")
 			(pinfunction "Camera_GPIO")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "fc45949a-b32b-43d5-96ee-95a3408fe298")
 		)
 		(pad "98" smd rect
@@ -9820,7 +9723,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "c3b68543-34ec-4191-8e78-33cc9ba0e9e6")
 		)
 		(pad "99" smd rect
@@ -9830,7 +9732,6 @@
 			(net 142 "unconnected-(Module1A-Global_EN-Pad99)")
 			(pinfunction "Global_EN")
 			(pintype "input+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "3674861e-a2bd-4bc8-b7fe-2bcf8328a5ae")
 		)
 		(pad "100" smd rect
@@ -9840,7 +9741,6 @@
 			(net 128 "unconnected-(Module1A-nEXTRST-Pad100)")
 			(pinfunction "nEXTRST")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "1e98077e-d25d-44a6-83e4-92722a6c6a93")
 		)
 		(pad "101" smd rect
@@ -9850,7 +9750,6 @@
 			(net 200 "unconnected-(Module1B-USB_OTG_ID-Pad101)")
 			(pinfunction "USB_OTG_ID")
 			(pintype "input+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "b2705ad0-6f3b-4ccf-a447-02c1a3ab5035")
 		)
 		(pad "102" smd rect
@@ -9860,7 +9759,6 @@
 			(net 122 "unconnected-(Module1B-PCIe_CLK_nREQ-Pad102)")
 			(pinfunction "PCIe_CLK_nREQ")
 			(pintype "input+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "158f992b-971b-4bfd-994e-1f96f99634ae")
 		)
 		(pad "103" smd rect
@@ -9870,7 +9768,6 @@
 			(net 209 "unconnected-(Module1B-USB2_N-Pad103)")
 			(pinfunction "USB2_N")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "c7b0811b-d8f2-4585-b462-cca0df5ac12f")
 		)
 		(pad "104" smd rect
@@ -9880,7 +9777,6 @@
 			(net 181 "unconnected-(Module1B-Reserved-Pad104)")
 			(pinfunction "Reserved")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "869cb0c2-b125-4495-b83d-7a4dd52b9dc6")
 		)
 		(pad "105" smd rect
@@ -9890,7 +9786,6 @@
 			(net 123 "unconnected-(Module1B-USB2_P-Pad105)")
 			(pinfunction "USB2_P")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "161cd41f-8d72-4cd5-9d99-700b798020aa")
 		)
 		(pad "106" smd rect
@@ -9900,7 +9795,6 @@
 			(net 109 "unconnected-(Module1B-Reserved-Pad106)")
 			(pinfunction "Reserved")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "01ba4b2f-37f7-434e-869f-ef4f53ae8229")
 		)
 		(pad "107" smd rect
@@ -9910,7 +9804,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "4ca18fba-e2b3-433e-a79a-4f50bc03d7a3")
 		)
 		(pad "108" smd rect
@@ -9920,7 +9813,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "50e49069-4f02-4b61-89c4-af4c04b5d68f")
 		)
 		(pad "109" smd rect
@@ -9930,7 +9822,6 @@
 			(net 136 "unconnected-(Module1B-PCIe_nRST-Pad109)")
 			(pinfunction "PCIe_nRST")
 			(pintype "bidirectional+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "300081b7-1cf6-4d90-adf4-255708b279bc")
 		)
 		(pad "110" smd rect
@@ -9940,7 +9831,6 @@
 			(net 149 "unconnected-(Module1B-PCIe_CLK_P-Pad110)")
 			(pinfunction "PCIe_CLK_P")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "41ee96ff-2915-4150-9bdd-cc507a2f7c74")
 		)
 		(pad "111" smd rect
@@ -9950,7 +9840,6 @@
 			(net 151 "unconnected-(Module1B-VDAC_COMP-Pad111)")
 			(pinfunction "VDAC_COMP")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "45013f05-c2e4-449b-8ab8-3b3d69751675")
 		)
 		(pad "112" smd rect
@@ -9960,7 +9849,6 @@
 			(net 157 "unconnected-(Module1B-PCIe_CLK_N-Pad112)")
 			(pinfunction "PCIe_CLK_N")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "563ad974-848a-4170-8db2-178aa9882c4d")
 		)
 		(pad "113" smd rect
@@ -9970,7 +9858,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "6803c662-166f-4465-b91b-1e52fadc2934")
 		)
 		(pad "114" smd rect
@@ -9980,7 +9867,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "83b82af1-31b5-437d-bfcb-f7209e218d1e")
 		)
 		(pad "115" smd rect
@@ -9990,7 +9876,6 @@
 			(net 229 "unconnected-(Module1B-CAM1_D0_N-Pad115)")
 			(pinfunction "CAM1_D0_N")
 			(pintype "input+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "f0081586-403b-4994-aef8-70455295999f")
 		)
 		(pad "116" smd rect
@@ -10000,7 +9885,6 @@
 			(net 199 "unconnected-(Module1B-PCIe_RX_P-Pad116)")
 			(pinfunction "PCIe_RX_P")
 			(pintype "input+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "adbc7753-f165-40c2-853c-f9f8b02e3e4b")
 		)
 		(pad "117" smd rect
@@ -10010,7 +9894,6 @@
 			(net 193 "unconnected-(Module1B-CAM1_D0_P-Pad117)")
 			(pinfunction "CAM1_D0_P")
 			(pintype "input+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "9cfd2b8e-3fc5-4aea-853c-13751879bba6")
 		)
 		(pad "118" smd rect
@@ -10020,7 +9903,6 @@
 			(net 205 "unconnected-(Module1B-PCIe_RX_N-Pad118)")
 			(pinfunction "PCIe_RX_N")
 			(pintype "input+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "bc4ed7e5-3fd5-40e9-ada0-4e88d437112e")
 		)
 		(pad "119" smd rect
@@ -10030,7 +9912,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "f752b9af-9008-43d4-bb81-f71ddae141e8")
 		)
 		(pad "120" smd rect
@@ -10040,7 +9921,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "05b7acb5-5517-4a5d-a7e3-f4e9d1bcf515")
 		)
 		(pad "121" smd rect
@@ -10050,7 +9930,6 @@
 			(net 207 "unconnected-(Module1B-CAM1_D1_N-Pad121)")
 			(pinfunction "CAM1_D1_N")
 			(pintype "input+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "c11de259-aba6-4d8b-9bf7-369b016e26b9")
 		)
 		(pad "122" smd rect
@@ -10060,7 +9939,6 @@
 			(net 153 "unconnected-(Module1B-PCIe_TX_P-Pad122)")
 			(pinfunction "PCIe_TX_P")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "4a1aacd0-6dd2-4b16-a49f-e5026f535b30")
 		)
 		(pad "123" smd rect
@@ -10070,7 +9948,6 @@
 			(net 223 "unconnected-(Module1B-CAM1_D1_P-Pad123)")
 			(pinfunction "CAM1_D1_P")
 			(pintype "input+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "e91338e5-3f7d-4096-aa7f-da7043f907b4")
 		)
 		(pad "124" smd rect
@@ -10080,7 +9957,6 @@
 			(net 179 "unconnected-(Module1B-PCIe_TX_N-Pad124)")
 			(pinfunction "PCIe_TX_N")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "85131cb0-564b-4623-9a7f-97801333e03b")
 		)
 		(pad "125" smd rect
@@ -10090,7 +9966,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "459b3b0b-fbc0-4d60-b3c7-cdca99ca2399")
 		)
 		(pad "126" smd rect
@@ -10100,7 +9975,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "9ccfef47-18e5-4107-9856-f2725145b954")
 		)
 		(pad "127" smd rect
@@ -10110,7 +9984,6 @@
 			(net 118 "unconnected-(Module1B-CAM1_C_N-Pad127)")
 			(pinfunction "CAM1_C_N")
 			(pintype "input+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "0fe77d26-4dfe-4ebe-9ba4-891bfdbd2dc2")
 		)
 		(pad "128" smd rect
@@ -10120,7 +9993,6 @@
 			(net 202 "unconnected-(Module1B-CAM0_D0_N-Pad128)")
 			(pinfunction "CAM0_D0_N")
 			(pintype "input+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "b92f6cce-461a-4b2c-b05f-3409b26b6c43")
 		)
 		(pad "129" smd rect
@@ -10130,7 +10002,6 @@
 			(net 170 "unconnected-(Module1B-CAM1_C_P-Pad129)")
 			(pinfunction "CAM1_C_P")
 			(pintype "input+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "6e8792d6-4c21-488d-8bb7-3b7ff01a8e27")
 		)
 		(pad "130" smd rect
@@ -10140,7 +10011,6 @@
 			(net 231 "unconnected-(Module1B-CAM0_D0_P-Pad130)")
 			(pinfunction "CAM0_D0_P")
 			(pintype "input+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "f4ca739b-d5c9-4565-a3f3-6557f3879511")
 		)
 		(pad "131" smd rect
@@ -10150,7 +10020,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "fdd563e2-93d6-489d-8777-d02f05346e04")
 		)
 		(pad "132" smd rect
@@ -10160,7 +10029,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "80ee6b95-53f9-442d-a4b4-5116340d43f7")
 		)
 		(pad "133" smd rect
@@ -10170,7 +10038,6 @@
 			(net 230 "unconnected-(Module1B-CAM1_D2_N-Pad133)")
 			(pinfunction "CAM1_D2_N")
 			(pintype "input+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "f3ba3480-149b-4e66-8e72-66d9743c3b7e")
 		)
 		(pad "134" smd rect
@@ -10180,7 +10047,6 @@
 			(net 215 "unconnected-(Module1B-CAM0_D1_N-Pad134)")
 			(pinfunction "CAM0_D1_N")
 			(pintype "input+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "dce54d2a-fba2-4876-b5fb-596e17257644")
 		)
 		(pad "135" smd rect
@@ -10190,7 +10056,6 @@
 			(net 220 "unconnected-(Module1B-CAM1_D2_P-Pad135)")
 			(pinfunction "CAM1_D2_P")
 			(pintype "input+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "e4f3b936-e6b9-4224-89f1-907acd03e4c6")
 		)
 		(pad "136" smd rect
@@ -10200,7 +10065,6 @@
 			(net 237 "unconnected-(Module1B-CAM0_D1_P-Pad136)")
 			(pinfunction "CAM0_D1_P")
 			(pintype "input+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "fe75d3cb-94c0-47d3-a326-c738270f6f6e")
 		)
 		(pad "137" smd rect
@@ -10210,7 +10074,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "1dfef67e-5ce8-4cdb-a3e6-049708c95b31")
 		)
 		(pad "138" smd rect
@@ -10220,7 +10083,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "bfb116b5-eed2-4e0a-96e0-946a7c71a796")
 		)
 		(pad "139" smd rect
@@ -10230,7 +10092,6 @@
 			(net 163 "unconnected-(Module1B-CAM1_D3_N-Pad139)")
 			(pinfunction "CAM1_D3_N")
 			(pintype "input+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "644ed19f-b555-4efb-aa3e-6ef4f6c86569")
 		)
 		(pad "140" smd rect
@@ -10240,7 +10101,6 @@
 			(net 218 "unconnected-(Module1B-CAM0_C_N-Pad140)")
 			(pinfunction "CAM0_C_N")
 			(pintype "input+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "e122bcce-f73c-44ef-aa5e-af2efb5e669c")
 		)
 		(pad "141" smd rect
@@ -10250,7 +10110,6 @@
 			(net 227 "unconnected-(Module1B-CAM1_D3_P-Pad141)")
 			(pinfunction "CAM1_D3_P")
 			(pintype "input+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "eb5673ae-8f81-43f1-ae7a-d275b15e740f")
 		)
 		(pad "142" smd rect
@@ -10260,7 +10119,6 @@
 			(net 191 "unconnected-(Module1B-CAM0_C_P-Pad142)")
 			(pinfunction "CAM0_C_P")
 			(pintype "input+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "9a6e874e-de66-4a9c-a79e-53dc53be60cd")
 		)
 		(pad "143" smd rect
@@ -10270,7 +10128,6 @@
 			(net 213 "unconnected-(Module1B-HDMI1_HOTPLUG-Pad143)")
 			(pinfunction "HDMI1_HOTPLUG")
 			(pintype "input+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "d844dcbe-be82-4c9d-9e0c-9e200e1c56a9")
 		)
 		(pad "144" smd rect
@@ -10280,7 +10137,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "80bb449f-3563-42bf-b5a2-a4c6fa579b31")
 		)
 		(pad "145" smd rect
@@ -10290,7 +10146,6 @@
 			(net 188 "unconnected-(Module1B-HDMI1_SDA-Pad145)")
 			(pinfunction "HDMI1_SDA")
 			(pintype "bidirectional+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "962774f1-a2c3-4afa-a58b-e785ef28b268")
 		)
 		(pad "146" smd rect
@@ -10300,7 +10155,6 @@
 			(net 124 "unconnected-(Module1B-HDMI1_TX2_P-Pad146)")
 			(pinfunction "HDMI1_TX2_P")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "16ed83e7-97cd-4b4a-9683-415fb296e3b8")
 		)
 		(pad "147" smd rect
@@ -10310,7 +10164,6 @@
 			(net 146 "unconnected-(Module1B-HDMI1_SCL-Pad147)")
 			(pinfunction "HDMI1_SCL")
 			(pintype "open_collector+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "3c35bf03-127e-4767-942b-8677eefca037")
 		)
 		(pad "148" smd rect
@@ -10320,7 +10173,6 @@
 			(net 192 "unconnected-(Module1B-HDMI1_TX2_N-Pad148)")
 			(pinfunction "HDMI1_TX2_N")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "9a8875b3-8cf2-406a-a898-6b1c747d8a5a")
 		)
 		(pad "149" smd rect
@@ -10330,7 +10182,6 @@
 			(net 212 "unconnected-(Module1B-HDMI1_CEC-Pad149)")
 			(pinfunction "HDMI1_CEC")
 			(pintype "open_collector+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "d5b442c3-0473-478b-ae68-9aee49bd92bb")
 		)
 		(pad "150" smd rect
@@ -10340,7 +10191,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "80847f63-6006-48f7-bb32-35e6f8f2e889")
 		)
 		(pad "151" smd rect
@@ -10350,7 +10200,6 @@
 			(net 139 "unconnected-(Module1B-HDMI0_CEC-Pad151)")
 			(pinfunction "HDMI0_CEC")
 			(pintype "open_collector+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "32c7cc92-1f0e-42f9-9ddf-b9182e95a251")
 		)
 		(pad "152" smd rect
@@ -10360,7 +10209,6 @@
 			(net 204 "unconnected-(Module1B-HDMI1_TX1_P-Pad152)")
 			(pinfunction "HDMI1_TX1_P")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "bbca2a10-eed9-4b6a-a5a0-66d179d8f561")
 		)
 		(pad "153" smd rect
@@ -10370,7 +10218,6 @@
 			(net 226 "unconnected-(Module1B-HDMI0_HOTPLUG-Pad153)")
 			(pinfunction "HDMI0_HOTPLUG")
 			(pintype "input+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "ea265036-31a5-4888-b467-663f3b2672cd")
 		)
 		(pad "154" smd rect
@@ -10380,7 +10227,6 @@
 			(net 217 "unconnected-(Module1B-HDMI1_TX1_N-Pad154)")
 			(pinfunction "HDMI1_TX1_N")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "df93a423-52f6-4472-9b17-fcc1922d5355")
 		)
 		(pad "155" smd rect
@@ -10390,7 +10236,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "02362f8a-d9e6-4eea-8488-9912963d51f0")
 		)
 		(pad "156" smd rect
@@ -10400,7 +10245,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "f3408685-562b-4a5d-9137-a72a67a6f209")
 		)
 		(pad "157" smd rect
@@ -10410,7 +10254,6 @@
 			(net 221 "unconnected-(Module1B-DSI0_D0_N-Pad157)")
 			(pinfunction "DSI0_D0_N")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "e53548d1-c269-4edd-b432-ead7fa8b7586")
 		)
 		(pad "158" smd rect
@@ -10420,7 +10263,6 @@
 			(net 171 "unconnected-(Module1B-HDMI1_TX0_P-Pad158)")
 			(pinfunction "HDMI1_TX0_P")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "6f89187c-50be-4ec2-9f3f-9a3038fbce9b")
 		)
 		(pad "159" smd rect
@@ -10430,7 +10272,6 @@
 			(net 210 "unconnected-(Module1B-DSI0_D0_P-Pad159)")
 			(pinfunction "DSI0_D0_P")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "cbbe1806-db5c-42ae-aac2-dfb86fedfd7e")
 		)
 		(pad "160" smd rect
@@ -10440,7 +10281,6 @@
 			(net 113 "unconnected-(Module1B-HDMI1_TX0_N-Pad160)")
 			(pinfunction "HDMI1_TX0_N")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "0776fdac-2f55-4c26-9293-1809f96ed1bf")
 		)
 		(pad "161" smd rect
@@ -10450,7 +10290,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "834e99e5-1799-4d94-b921-4b06aec2d3bc")
 		)
 		(pad "162" smd rect
@@ -10460,7 +10299,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "c603d981-8d25-414b-af5c-bcf61f4d82fe")
 		)
 		(pad "163" smd rect
@@ -10470,7 +10308,6 @@
 			(net 117 "unconnected-(Module1B-DSI0_D1_N-Pad163)")
 			(pinfunction "DSI0_D1_N")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "0ec312bb-ecea-4ae4-8578-31df897ac7c6")
 		)
 		(pad "164" smd rect
@@ -10480,7 +10317,6 @@
 			(net 176 "unconnected-(Module1B-HDMI1_CLK_P-Pad164)")
 			(pinfunction "HDMI1_CLK_P")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "7e2730af-0543-4d5b-9053-80945584b642")
 		)
 		(pad "165" smd rect
@@ -10490,7 +10326,6 @@
 			(net 180 "unconnected-(Module1B-DSI0_D1_P-Pad165)")
 			(pinfunction "DSI0_D1_P")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "85ed728b-0946-4c87-84b7-6f0fc712944a")
 		)
 		(pad "166" smd rect
@@ -10500,7 +10335,6 @@
 			(net 127 "unconnected-(Module1B-HDMI1_CLK_N-Pad166)")
 			(pinfunction "HDMI1_CLK_N")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "1d7b372a-bda8-4909-a751-16d4eb51cded")
 		)
 		(pad "167" smd rect
@@ -10510,7 +10344,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "536945b3-53ca-422a-8b45-2188a3e63bbe")
 		)
 		(pad "168" smd rect
@@ -10520,7 +10353,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "3e1dcd04-3683-45ba-841f-7de5c02b2ece")
 		)
 		(pad "169" smd rect
@@ -10530,7 +10362,6 @@
 			(net 184 "unconnected-(Module1B-DSI0_C_N-Pad169)")
 			(pinfunction "DSI0_C_N")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "8c82ebef-5883-4f66-abb7-44eda50f9941")
 		)
 		(pad "170" smd rect
@@ -10540,7 +10371,6 @@
 			(net 203 "unconnected-(Module1B-HDMI0_TX2_P-Pad170)")
 			(pinfunction "HDMI0_TX2_P")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "b9a5d829-de53-4cea-95b4-65b164f8fc91")
 		)
 		(pad "171" smd rect
@@ -10550,7 +10380,6 @@
 			(net 198 "unconnected-(Module1B-DSI0_C_P-Pad171)")
 			(pinfunction "DSI0_C_P")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "acc7ea0f-ef89-4ad6-b77f-46380b6f925d")
 		)
 		(pad "172" smd rect
@@ -10560,7 +10389,6 @@
 			(net 148 "unconnected-(Module1B-HDMI0_TX2_N-Pad172)")
 			(pinfunction "HDMI0_TX2_N")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "40d35167-d3c0-4ebc-b723-8111b7d514a2")
 		)
 		(pad "173" smd rect
@@ -10570,7 +10398,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "5ca76ce2-f766-4f27-8006-58f692eeab4a")
 		)
 		(pad "174" smd rect
@@ -10580,7 +10407,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "4c0a9d89-27ba-4947-bf03-6029e8a2b73c")
 		)
 		(pad "175" smd rect
@@ -10590,7 +10416,6 @@
 			(net 158 "unconnected-(Module1B-DSI1_D0_N-Pad175)")
 			(pinfunction "DSI1_D0_N")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "563f1dd6-c7c7-4c12-bd05-bb8e5c2c21a2")
 		)
 		(pad "176" smd rect
@@ -10600,7 +10425,6 @@
 			(net 110 "unconnected-(Module1B-HDMI0_TX1_P-Pad176)")
 			(pinfunction "HDMI0_TX1_P")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "01eecb19-fcee-4f3d-b058-e6a605c36396")
 		)
 		(pad "177" smd rect
@@ -10610,7 +10434,6 @@
 			(net 178 "unconnected-(Module1B-DSI1_D0_P-Pad177)")
 			(pinfunction "DSI1_D0_P")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "7f77020c-1680-48b6-8207-bed6ce817101")
 		)
 		(pad "178" smd rect
@@ -10620,7 +10443,6 @@
 			(net 147 "unconnected-(Module1B-HDMI0_TX1_N-Pad178)")
 			(pinfunction "HDMI0_TX1_N")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "3d1dcc76-d803-4913-87fb-1fc87dcc3cbd")
 		)
 		(pad "179" smd rect
@@ -10630,7 +10452,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "3e24b7a5-3aa2-4710-87d0-2a6966b97aa9")
 		)
 		(pad "180" smd rect
@@ -10640,7 +10461,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "d14ef45b-78d2-4f34-874d-9987f2b8ddbb")
 		)
 		(pad "181" smd rect
@@ -10650,7 +10470,6 @@
 			(net 152 "unconnected-(Module1B-DSI1_D1_N-Pad181)")
 			(pinfunction "DSI1_D1_N")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "47d216ed-b965-4c38-b439-f1ff80fc5eb2")
 		)
 		(pad "182" smd rect
@@ -10660,7 +10479,6 @@
 			(net 133 "unconnected-(Module1B-HDMI0_TX0_P-Pad182)")
 			(pinfunction "HDMI0_TX0_P")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "263072f9-d54f-4255-8e5d-e72399c8d381")
 		)
 		(pad "183" smd rect
@@ -10670,7 +10488,6 @@
 			(net 150 "unconnected-(Module1B-DSI1_D1_P-Pad183)")
 			(pinfunction "DSI1_D1_P")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "432c7dba-b7e0-4ed4-a26c-4f7c57e3735d")
 		)
 		(pad "184" smd rect
@@ -10680,7 +10497,6 @@
 			(net 144 "unconnected-(Module1B-HDMI0_TX0_N-Pad184)")
 			(pinfunction "HDMI0_TX0_N")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "39334644-90f5-4e90-a4f7-0820b55db60e")
 		)
 		(pad "185" smd rect
@@ -10690,7 +10506,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "f40c780a-d312-4789-a699-7601bc6219ca")
 		)
 		(pad "186" smd rect
@@ -10700,7 +10515,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "992a5a6c-3b1e-4353-82b7-bc3b6a1794d2")
 		)
 		(pad "187" smd rect
@@ -10710,7 +10524,6 @@
 			(net 135 "unconnected-(Module1B-DSI1_C_N-Pad187)")
 			(pinfunction "DSI1_C_N")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "2f8cd80e-90f4-40b8-8420-7069c720eab5")
 		)
 		(pad "188" smd rect
@@ -10720,7 +10533,6 @@
 			(net 234 "unconnected-(Module1B-HDMI0_CLK_P-Pad188)")
 			(pinfunction "HDMI0_CLK_P")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "fa2f3031-ea1d-4bed-9704-cae7d6b410ed")
 		)
 		(pad "189" smd rect
@@ -10730,7 +10542,6 @@
 			(net 129 "unconnected-(Module1B-DSI1_C_P-Pad189)")
 			(pinfunction "DSI1_C_P")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "1fc76f99-5386-4575-8d88-05d1a3f01b85")
 		)
 		(pad "190" smd rect
@@ -10740,7 +10551,6 @@
 			(net 238 "unconnected-(Module1B-HDMI0_CLK_N-Pad190)")
 			(pinfunction "HDMI0_CLK_N")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "ffd9cdee-0be1-4851-b59f-d5a36366d39f")
 		)
 		(pad "191" smd rect
@@ -10750,7 +10560,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "f53d5596-7fbc-4c50-b3ef-bc2ceccc1123")
 		)
 		(pad "192" smd rect
@@ -10760,7 +10569,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "2d53f922-704e-4a26-a8ec-25fee4f824d2")
 		)
 		(pad "193" smd rect
@@ -10770,7 +10578,6 @@
 			(net 228 "unconnected-(Module1B-DSI1_D2_N-Pad193)")
 			(pinfunction "DSI1_D2_N")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "eced3797-72af-453a-aef5-1d65b92f9718")
 		)
 		(pad "194" smd rect
@@ -10780,7 +10587,6 @@
 			(net 225 "unconnected-(Module1B-DSI1_D3_N-Pad194)")
 			(pinfunction "DSI1_D3_N")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "e953093d-03ed-454b-8c07-27178b82d425")
 		)
 		(pad "195" smd rect
@@ -10790,7 +10596,6 @@
 			(net 155 "unconnected-(Module1B-DSI1_D2_P-Pad195)")
 			(pinfunction "DSI1_D2_P")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "4f4f2e79-e314-4d01-a9cf-0a9fd1ae94ee")
 		)
 		(pad "196" smd rect
@@ -10800,7 +10605,6 @@
 			(net 134 "unconnected-(Module1B-DSI1_D3_P-Pad196)")
 			(pinfunction "DSI1_D3_P")
 			(pintype "output+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "28ccf665-ad92-414b-89ff-926ef7106932")
 		)
 		(pad "197" smd rect
@@ -10810,7 +10614,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "ded5095a-4ea9-4689-9c52-0532297c2e69")
 		)
 		(pad "198" smd rect
@@ -10820,7 +10623,6 @@
 			(net 25 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "44df5282-9f67-4ab2-842a-22ebe166db70")
 		)
 		(pad "199" smd rect
@@ -10830,7 +10632,6 @@
 			(net 145 "unconnected-(Module1B-HDMI0_SDA-Pad199)")
 			(pinfunction "HDMI0_SDA")
 			(pintype "bidirectional+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "3b822617-7184-4670-a7ef-ae0ac14c0ab1")
 		)
 		(pad "200" smd rect
@@ -10840,7 +10641,6 @@
 			(net 165 "unconnected-(Module1B-HDMI0_SCL-Pad200)")
 			(pinfunction "HDMI0_SCL")
 			(pintype "open_collector+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "68189b91-3f00-458c-b93f-12fcc68812c2")
 		)
 		(pad "SH1" thru_hole circle
@@ -13280,7 +13080,7 @@
 		(at 210.525 181.025)
 		(property "Reference" "G***"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "deb70463-e09e-45be-b4e2-74a08ca98dca")
 			(effects
@@ -17746,18 +17546,6 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "c7305cca-c5b4-422c-8841-61a8567c89cc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "Designator143"
-			(at -3.3274 -3.937 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "df4a05a3-fd12-4678-937e-79000c9782c2")
 			(effects
 				(font
 					(size 1 1)
@@ -27239,7 +27027,8 @@
 		(at 222.95 161.825 180)
 		(property "Reference" "G***"
 			(at 0 0 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
+			(hide yes)
 			(uuid "38593869-f344-43a4-94d0-0b988f8a5788")
 			(effects
 				(font
@@ -45440,7 +45229,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "HEDGE-2 OBC\nV1.1"
+	(gr_text "HEDGE-2 OBC\nV1.3"
 		(at 192.75 184.775 0)
 		(layer "F.SilkS")
 		(uuid "aaf3359b-d035-4e9b-b1fe-2509b3598080")
