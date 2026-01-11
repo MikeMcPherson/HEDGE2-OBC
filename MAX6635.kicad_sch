@@ -744,10 +744,6 @@
 		)
 		(instances
 			(project "HEDGE2-OBC"
-				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/2c7e5e81-1117-4c12-a1a9-bb5e2ad5a947"
-					(reference "#PWR086")
-					(unit 1)
-				)
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/447e6187-2c4f-4605-bcfa-9c5de09578b6"
 					(reference "#PWR084")
 					(unit 1)
@@ -904,10 +900,6 @@
 		)
 		(instances
 			(project "HEDGE2-OBC"
-				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/2c7e5e81-1117-4c12-a1a9-bb5e2ad5a947"
-					(reference "U9")
-					(unit 1)
-				)
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/447e6187-2c4f-4605-bcfa-9c5de09578b6"
 					(reference "U10")
 					(unit 1)
@@ -987,10 +979,6 @@
 		)
 		(instances
 			(project "HEDGE2-OBC"
-				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/2c7e5e81-1117-4c12-a1a9-bb5e2ad5a947"
-					(reference "C19")
-					(unit 1)
-				)
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/447e6187-2c4f-4605-bcfa-9c5de09578b6"
 					(reference "C20")
 					(unit 1)
@@ -1055,10 +1043,6 @@
 		)
 		(instances
 			(project "HEDGE2-OBC"
-				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/2c7e5e81-1117-4c12-a1a9-bb5e2ad5a947"
-					(reference "#PWR088")
-					(unit 1)
-				)
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/447e6187-2c4f-4605-bcfa-9c5de09578b6"
 					(reference "#PWR085")
 					(unit 1)

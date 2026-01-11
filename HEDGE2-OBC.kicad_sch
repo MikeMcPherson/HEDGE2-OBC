@@ -8801,16 +8801,6 @@
 		)
 		(uuid "60909474-63d5-4355-acf7-e693589b97bf")
 	)
-	(text "0x49"
-		(exclude_from_sim no)
-		(at 181.61 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "62e398a1-616a-4ab6-8cce-f6791cc41ad1")
-	)
 	(text "GNSS"
 		(exclude_from_sim no)
 		(at 132.08 180.34 0)
@@ -9129,12 +9119,6 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "87218f76-0bd4-4868-823f-ef049e1420ff")
-	)
-	(junction
-		(at 172.72 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a6dcf4e-e8f0-45c8-9aba-eaf19f32b6a4")
 	)
 	(junction
 		(at 347.98 149.86)
@@ -11744,16 +11728,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 31.75) (xy 173.99 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76d3dcfd-e8c1-40b4-8792-ca6b55f49b6d")
-	)
-	(wire
-		(pts
 			(xy 163.83 97.79) (xy 165.1 97.79)
 		)
 		(stroke
@@ -11921,16 +11895,6 @@
 			(type solid)
 		)
 		(uuid "81e3c7be-def6-4123-84b9-ba7aa559733c")
-	)
-	(wire
-		(pts
-			(xy 172.72 35.56) (xy 173.99 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8212f047-7583-4f21-97a9-3125217f7cbe")
 	)
 	(wire
 		(pts
@@ -12664,16 +12628,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 29.21) (xy 172.72 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bae093cd-0262-4f5f-8d3f-f96f6c8511b3")
-	)
-	(wire
-		(pts
 			(xy 111.76 54.61) (xy 113.03 54.61)
 		)
 		(stroke
@@ -12811,16 +12765,6 @@
 			(type default)
 		)
 		(uuid "c2ecf589-2d27-44d3-a351-c80237fef7a0")
-	)
-	(wire
-		(pts
-			(xy 172.72 39.37) (xy 173.99 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3dce46e-0c51-4018-bf02-fe2caac0b7cf")
 	)
 	(wire
 		(pts
@@ -13021,16 +12965,6 @@
 			(type default)
 		)
 		(uuid "d2abf5fc-ddf9-4153-8c9f-797b552e1ed3")
-	)
-	(wire
-		(pts
-			(xy 172.72 25.4) (xy 173.99 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2cddc2f-9a86-4263-9d02-e25a3a90c673")
 	)
 	(wire
 		(pts
@@ -13541,16 +13475,6 @@
 			(type solid)
 		)
 		(uuid "fb2f0f30-d5b9-4121-868a-057ed487832d")
-	)
-	(wire
-		(pts
-			(xy 172.72 29.21) (xy 172.72 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcc68c94-5ea1-4641-bf2f-595919ee596f")
 	)
 	(wire
 		(pts
@@ -15020,16 +14944,6 @@
 		)
 		(uuid "72c6c0a2-5000-45e4-a48d-395a2d81ca3e")
 	)
-	(label "SCL0_3V3"
-		(at 172.72 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "753e8daa-8a78-46e1-be99-e1614b2398c4")
-	)
 	(label "DS_C"
 		(at 64.77 113.03 0)
 		(effects
@@ -15669,16 +15583,6 @@
 			(justify right bottom)
 		)
 		(uuid "fc55d9a5-5ce3-436f-8916-5e8993dfe5c3")
-	)
-	(label "SDA0_3V3"
-		(at 172.72 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "feb92e90-8615-47e6-8085-ffbea2f3f8c0")
 	)
 	(label "UART_D_RX"
 		(at 205.74 180.34 0)
@@ -21176,72 +21080,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 172.72 25.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b676dd8f-0c87-460a-9802-b8215b343c60")
-		(property "Reference" "#PWR083"
-			(at 176.53 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 168.91 25.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 172.72 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "557b7bce-e4e1-46fc-a400-8827437ac22f")
-		)
-		(instances
-			(project "HEDGE2-OBC"
-				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR083")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 140.97 63.5 270)
 		(unit 1)
@@ -25045,73 +24883,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 171.45 31.75 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8229e57-0744-42ff-b611-ba3ad4af747a")
-		(property "Reference" "#PWR090"
-			(at 165.1 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.64 31.7499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01131b92-b6a3-45d4-84fc-b65879a4710d")
-		)
-		(instances
-			(project "HEDGE2-OBC"
-				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR090")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 140.97 33.02 90)
 		(unit 1)
@@ -26141,98 +25912,6 @@
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
 					(reference "U1")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 173.99 22.86)
-		(size 31.75 21.59)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "2c7e5e81-1117-4c12-a1a9-bb5e2ad5a947")
-		(property "Sheetname" "MAX6635_MPU"
-			(at 173.99 22.1484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "MAX6635.kicad_sch"
-			(at 173.99 45.0346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "A0" input
-			(at 173.99 29.21 180)
-			(uuid "ef06b0a0-b4b7-42fa-b5f0-2b8b7fbf5b5a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "A1" input
-			(at 173.99 31.75 180)
-			(uuid "b43b96cd-5a43-4e8e-864a-edce0cfbf815")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SCL" input
-			(at 173.99 35.56 180)
-			(uuid "b2ac0d12-8ab4-4bd0-97f1-b90351dec090")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SDA" bidirectional
-			(at 173.99 39.37 180)
-			(uuid "5678f875-00a6-4cf4-aa32-7ae2013d66f2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VCC" input
-			(at 173.99 25.4 180)
-			(uuid "be27bcfa-b2d8-4d0c-92fe-314c7f2e1ec1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "HEDGE2-OBC"
-				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(page "7")
 				)
 			)
 		)
