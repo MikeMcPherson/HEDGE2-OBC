@@ -9299,6 +9299,12 @@
 		(uuid "e4e0a022-b7e4-4a00-9e8e-04a809601064")
 	)
 	(junction
+		(at 43.18 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb278943-1b84-44ec-a549-b3c7211862ce")
+	)
+	(junction
 		(at 309.88 101.6)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -10698,6 +10704,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 29.21) (xy 140.97 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2801754d-ffe1-4c21-8a7d-73bc731a7fbe")
+	)
+	(wire
+		(pts
 			(xy 63.5 36.83) (xy 74.93 36.83)
 		)
 		(stroke
@@ -11015,6 +11031,16 @@
 			(type solid)
 		)
 		(uuid "3cb685e3-eac7-4f89-8c3a-f75eb36cdbc2")
+	)
+	(wire
+		(pts
+			(xy 140.97 62.23) (xy 140.97 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc93897-fee5-4ca6-857f-c7d37167b9fc")
 	)
 	(wire
 		(pts
@@ -11408,7 +11434,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 243.84) (xy 43.18 243.84)
+			(xy 19.05 243.84) (xy 43.18 243.84)
 		)
 		(stroke
 			(width 0)
@@ -11605,6 +11631,16 @@
 			(type solid)
 		)
 		(uuid "70c68061-33cf-4196-aebf-e91bc90d6669")
+	)
+	(wire
+		(pts
+			(xy 43.18 234.95) (xy 43.18 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70d455b2-2559-4d4b-af98-08a1fb9eda05")
 	)
 	(wire
 		(pts
@@ -12078,6 +12114,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 241.3) (xy 43.18 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "934eaa67-54a9-469c-a9e0-da81fc6d8910")
+	)
+	(wire
+		(pts
 			(xy 238.76 190.5) (xy 240.03 190.5)
 		)
 		(stroke
@@ -12115,6 +12161,16 @@
 			(type default)
 		)
 		(uuid "95ac47c0-418d-4762-8c71-d33e3704f52a")
+	)
+	(wire
+		(pts
+			(xy 19.05 234.95) (xy 19.05 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e1c5c8-67d3-47f0-ae22-e6a4c4b81559")
 	)
 	(wire
 		(pts
@@ -12338,6 +12394,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 36.83) (xy 140.97 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5231a1f-889f-4954-a517-11ceca8c4a2d")
+	)
+	(wire
+		(pts
 			(xy 114.3 256.54) (xy 114.3 257.81)
 		)
 		(stroke
@@ -12538,7 +12604,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 55.88) (xy 139.7 55.88)
+			(xy 138.43 54.61) (xy 140.97 54.61)
 		)
 		(stroke
 			(width 0)
@@ -13078,6 +13144,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 243.84) (xy 43.18 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dae7c046-742b-46ee-9426-8044c5d171db")
+	)
+	(wire
+		(pts
 			(xy 63.5 54.61) (xy 72.39 54.61)
 		)
 		(stroke
@@ -13145,16 +13221,6 @@
 			(type default)
 		)
 		(uuid "e1469a08-1f2e-4570-b184-71e3427d6b50")
-	)
-	(wire
-		(pts
-			(xy 41.91 246.38) (xy 43.18 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e25814d1-0e29-4982-bdd6-6e12e553f4ff")
 	)
 	(wire
 		(pts
@@ -13375,6 +13441,16 @@
 			(type default)
 		)
 		(uuid "f1d425e0-4c4b-48ba-8574-240101bc31c9")
+	)
+	(wire
+		(pts
+			(xy 138.43 54.61) (xy 138.43 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2c9c9f7-b0dc-454f-8748-1b38648d64ec")
 	)
 	(wire
 		(pts
@@ -16438,7 +16514,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 41.91 243.84 90)
+		(at 19.05 234.95 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16447,7 +16523,7 @@
 		(fields_autoplaced yes)
 		(uuid "1cb959d1-8b5d-4082-a674-0103491d4c0e")
 		(property "Reference" "#PWR07"
-			(at 45.72 243.84 0)
+			(at 15.24 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16456,7 +16532,7 @@
 			)
 		)
 		(property "Value" "+3V3_OEM719B"
-			(at 38.735 243.8399 90)
+			(at 22.86 234.9499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16465,7 +16541,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 243.84 0)
+			(at 19.05 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16474,7 +16550,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 243.84 0)
+			(at 19.05 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16483,7 +16559,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 41.91 243.84 0)
+			(at 19.05 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18010,73 +18086,6 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 41.91 246.38 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60f81994-0bfb-4731-932d-48095781ecb7")
-		(property "Reference" "#PWR08"
-			(at 45.72 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_OEM719B"
-			(at 38.735 246.3799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 41.91 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9866eb6-f6e0-4fc1-a7c2-815c65350d68")
-		)
-		(instances
-			(project "HEDGE2-OBC"
-				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
 		(at 311.15 124.46 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18282,6 +18291,72 @@
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 234.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bb5d639-b5f1-405e-abcf-2e38c3f5d415")
+		(property "Reference" "#PWR091"
+			(at 43.18 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 230.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26f96258-2c34-404d-8ae8-7c976559ee60")
+		)
+		(instances
+			(project "HEDGE2-OBC"
+				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -19099,7 +19174,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 138.43 29.21 270)
+		(at 140.97 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19108,7 +19183,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ddee6c6-5f6e-45a6-af61-8edd34d44def")
 		(property "Reference" "#PWR035"
-			(at 134.62 29.21 0)
+			(at 137.16 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19117,7 +19192,7 @@
 			)
 		)
 		(property "Value" "+5V_CM4"
-			(at 142.24 29.2099 90)
+			(at 144.78 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19126,7 +19201,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 29.21 0)
+			(at 140.97 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19135,7 +19210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 29.21 0)
+			(at 140.97 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19144,7 +19219,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 138.43 29.21 0)
+			(at 140.97 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21168,7 +21243,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 139.7 55.88 270)
+		(at 140.97 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21177,7 +21252,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7c8c82f-2f05-449d-a4d8-2b942f428509")
 		(property "Reference" "#PWR036"
-			(at 135.89 55.88 0)
+			(at 137.16 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21186,7 +21261,7 @@
 			)
 		)
 		(property "Value" "+5V_OEM719B"
-			(at 143.51 55.8799 90)
+			(at 144.78 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21195,7 +21270,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 55.88 0)
+			(at 140.97 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21204,7 +21279,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 55.88 0)
+			(at 140.97 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21213,7 +21288,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 139.7 55.88 0)
+			(at 140.97 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21505,6 +21580,76 @@
 			(project ""
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
 					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 19.05 240.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfc3744e-4adc-40f0-869b-0ba1f1c6c321")
+		(property "Reference" "JP3"
+			(at 21.59 238.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "OEM719B ENABLE"
+			(at 21.59 241.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 19.05 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.05 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 19.05 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b8c8393-298d-49d8-b0a4-4e8d55b5d0e6")
+		)
+		(pin "2"
+			(uuid "f9819004-38b5-4132-92ba-9e89c558039c")
+		)
+		(instances
+			(project "HEDGE2-OBC"
+				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -22243,6 +22388,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 140.97 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7d8a116-f950-4428-a9bd-1d2e3f07e2b7")
+		(property "Reference" "JP4"
+			(at 143.51 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LDO 3V3 ENABLE"
+			(at 143.51 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 140.97 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 140.97 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88e5aafa-3a15-4e5e-a27c-067b3687db1c")
+		)
+		(pin "2"
+			(uuid "7842d84e-ae9c-4a27-89fe-564fdcda2780")
+		)
+		(instances
+			(project "HEDGE2-OBC"
+				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 110.49 35.56 0)
 		(unit 1)
@@ -22376,6 +22591,76 @@
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 43.18 238.76 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db10487d-0b6d-44b7-acf1-2b596ba390ca")
+		(property "Reference" "C21"
+			(at 45.72 237.4835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 45.72 240.0235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 43.18 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 43.18 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "617cbe0d-41ff-45c3-9180-b46f1ce31150")
+		)
+		(pin "2"
+			(uuid "209400ca-879d-4b8f-b8e5-e2732470037c")
+		)
+		(instances
+			(project "HEDGE2-OBC"
+				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -24827,6 +25112,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 140.97 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8b259ee-7d10-4581-817d-a49ac8df8ee6")
+		(property "Reference" "JP5"
+			(at 143.51 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CM4 ENABLE"
+			(at 143.51 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 140.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 140.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acaba8d7-f9e5-4355-ba5c-0ec964bc0a00")
+		)
+		(pin "2"
+			(uuid "6b71e48a-1189-4131-829d-589bf05488ae")
+		)
+		(instances
+			(project "HEDGE2-OBC"
+				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
+					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CM4IO:ComputeModule4-CM4")
 		(at 241.3 88.9 0)
 		(unit 2)
@@ -25898,7 +26253,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2fe24ee5-d27b-42b6-9c16-d2ffc747d051")
-		(property "Sheetname" "SN65HVD1783"
+		(property "Sheetname" "SN65HVD1782-SCI"
 			(at 175.26 196.1384 0)
 			(effects
 				(font
@@ -26207,7 +26562,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "99251b00-c1b7-40e5-b42e-71ffd8f0d415")
-		(property "Sheetname" "SN65HVD1782"
+		(property "Sheetname" "SN65HVD1782-COMM"
 			(at 175.26 172.0084 0)
 			(effects
 				(font
