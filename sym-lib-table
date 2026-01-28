@@ -15,4 +15,6 @@
   (lib (name "OEM719B")(type "KiCad")(uri "${KICAD_USER_CADFILES}/NovAtel OEM719B CAD Non-NDA/Novatel.kicad_sym")(options "")(descr ""))
   (lib (name "TXS0102QDCURQ1")(type "KiCad")(uri "${KICAD_USER_CADFILES}/TXS0102QDCURQ1/TXS0102QDCURQ1.kicad_sym")(options "")(descr ""))
   (lib (name "MAX6635MSA_T")(type "KiCad")(uri "${KICAD_USER_CADFILES}/MAX6635MSA_T/MAX6635MSA_T.kicad_sym")(options "")(descr ""))
+  (lib (name "PCM5102AQPWRQ1")(type "KiCad")(uri "${KICAD_USER_CADFILES}/PCM5102AQPWRQ1/2026-01-27_02-17-16.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74CBTLV3257PWR")(type "KiCad")(uri "${KICAD_USER_CADFILES}/SN74CBTLV3257PWR/2026-01-28_02-50-21.kicad_sym")(options "")(descr ""))
 )

@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "7789ab89-8bf9-4c4f-add0-1a6ac8dcc1d7")
-	(paper "USLedger")
+	(paper "C")
 	(title_block
 		(title "HEDGE-2 OBC")
 		(date "2025-09-08")
@@ -696,7 +696,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d8adfd4-21e1-4e1a-8615-6714bda02dad")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR095"
 			(at 233.68 153.67 0)
 			(effects
 				(font
@@ -745,7 +745,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/447e6187-2c4f-4605-bcfa-9c5de09578b6"
-					(reference "#PWR084")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -761,7 +761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f773be4-5371-4e6f-8e2f-fe22214f4f6c")
-		(property "Reference" "U10"
+		(property "Reference" "U11"
 			(at 215.9 113.03 0)
 			(effects
 				(font
@@ -901,7 +901,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/447e6187-2c4f-4605-bcfa-9c5de09578b6"
-					(reference "U10")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -917,7 +917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d4e6d0c-33de-4c84-b920-d26a649272ee")
-		(property "Reference" "C20"
+		(property "Reference" "C31"
 			(at 237.49 114.3062 0)
 			(effects
 				(font
@@ -980,7 +980,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/447e6187-2c4f-4605-bcfa-9c5de09578b6"
-					(reference "C20")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -995,7 +995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b62ca636-dbba-4bd6-bc3c-48159b33e3b3")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR096"
 			(at 234.95 105.41 0)
 			(effects
 				(font
@@ -1044,7 +1044,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/447e6187-2c4f-4605-bcfa-9c5de09578b6"
-					(reference "#PWR085")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
