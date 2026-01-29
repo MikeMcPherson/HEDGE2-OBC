@@ -1058,7 +1058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "258e5712-abaa-4c2f-a0df-7f17c4ddfecc")
-		(property "Reference" "C23"
+		(property "Reference" "C22"
 			(at 185.42 105.4162 0)
 			(effects
 				(font
@@ -1148,11 +1148,11 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/740c0668-bfac-47e0-b7b8-de442260ca55"
-					(reference "C24")
+					(reference "C23")
 					(unit 1)
 				)
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/9fa6cc5e-a76a-4d58-8af7-47af14171882"
-					(reference "C23")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -1168,7 +1168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42f1b412-5a71-49b4-bb2d-333da7aee73f")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR085"
 			(at 231.14 152.4 0)
 			(effects
 				(font
@@ -1218,11 +1218,11 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/740c0668-bfac-47e0-b7b8-de442260ca55"
-					(reference "#PWR081")
+					(reference "#PWR087")
 					(unit 1)
 				)
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/9fa6cc5e-a76a-4d58-8af7-47af14171882"
-					(reference "#PWR079")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -1390,7 +1390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "996e5773-68d8-4eac-95e1-b17a52a7ed30")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR084"
 			(at 182.88 93.98 0)
 			(effects
 				(font
@@ -1441,11 +1441,11 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/740c0668-bfac-47e0-b7b8-de442260ca55"
-					(reference "#PWR080")
+					(reference "#PWR086")
 					(unit 1)
 				)
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/9fa6cc5e-a76a-4d58-8af7-47af14171882"
-					(reference "#PWR078")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.77,
-          "width": 1.7725
+          "drill": 2.7,
+          "height": 5.8,
+          "width": 5.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -278,6 +278,14 @@
   "erc": {
     "erc_exclusions": [
       [
+        "four_way_junction|1358900|2476500|a24a4aeb-d33f-433d-8306-2e8931d13691|0665d689-215f-4dd3-9ecf-ee8c48dbce61|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9||",
+        ""
+      ],
+      [
+        "four_way_junction|1358900|2527300|889d0d4d-7caf-4843-a6e0-8189af7c1407|b134661b-90ff-484a-b3a7-1f0cced93843|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9||",
+        ""
+      ],
+      [
         "four_way_junction|1365250|2705100|a24a4aeb-d33f-433d-8306-2e8931d13691|f04033b0-a7eb-4e30-af50-63bc2c43bc4a|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9||",
         ""
       ],
@@ -326,6 +334,14 @@
         ""
       ],
       [
+        "four_way_junction|1930400|1371600|504cc4f7-dea4-4746-95fe-4658a55d264b|5098f8a5-6822-4283-b15f-6c4cd52e045f|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/740c0668-bfac-47e0-b7b8-de442260ca55||",
+        ""
+      ],
+      [
+        "four_way_junction|1930400|1371600|504cc4f7-dea4-4746-95fe-4658a55d264b|5098f8a5-6822-4283-b15f-6c4cd52e045f|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9/9fa6cc5e-a76a-4d58-8af7-47af14171882||",
+        ""
+      ],
+      [
         "four_way_junction|2032000|2336800|a379f25d-88e9-4f52-a309-76842eb5463d|50e896d8-60b1-4b76-9beb-6d1894b57977|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9||",
         ""
       ],
@@ -335,6 +351,10 @@
       ],
       [
         "four_way_junction|2774950|2159000|889d0d4d-7caf-4843-a6e0-8189af7c1407|8fa250a9-ad3d-4427-89a1-d375bd403d11|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9||",
+        ""
+      ],
+      [
+        "four_way_junction|406400|2654300|717f6b6a-5602-455b-9617-32c5185943c0|db31b7db-c669-4875-8cd4-1893ec1d39bb|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9||",
         ""
       ],
       [
@@ -366,6 +386,10 @@
         ""
       ],
       [
+        "four_way_junction|609600|2705100|a379f25d-88e9-4f52-a309-76842eb5463d|5684432d-77fa-4f1f-98a1-ae63155d2517|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9||",
+        ""
+      ],
+      [
         "four_way_junction|622300|2933700|5684432d-77fa-4f1f-98a1-ae63155d2517|bcc32e18-fcbe-421a-9fab-68a2cc7a5d3c|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9||",
         ""
       ],
@@ -387,6 +411,10 @@
       ],
       [
         "lib_symbol_issues|3937000|876300|dc17f76c-3c1f-4e0d-a8da-16f6a0c9db0a|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "multiple_net_names|1244600|2552700|67e08118-adc4-4cd3-8457-ef644bd712eb|7416802c-ac24-46f0-9994-c4ae3a4a5e95|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9",
         ""
       ],
       [
@@ -490,7 +518,19 @@
         ""
       ],
       [
+        "pin_to_pin|3244850|3162300|2a5ba9cc-abff-4962-a7e5-9bf0ecdda992|0c94c031-0c62-454c-a6ab-d8d9475f045a|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9",
+        ""
+      ],
+      [
+        "pin_to_pin|3251200|3162300|2a5ba9cc-abff-4962-a7e5-9bf0ecdda992|0c94c031-0c62-454c-a6ab-d8d9475f045a|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9",
+        ""
+      ],
+      [
         "pin_to_pin|3606800|1358900|bf9e15c4-a21b-4813-a4fa-9e32c383fe68|b960e47a-e997-43ce-bc0c-72c4c61c1c52|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9",
+        ""
+      ],
+      [
+        "pin_to_pin|4038600|3365500|bc4af1cd-34e4-43e1-91f2-8f125ee16170|2a5ba9cc-abff-4962-a7e5-9bf0ecdda992|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9",
         ""
       ],
       [
@@ -519,6 +559,10 @@
       ],
       [
         "pin_to_pin|4927600|3746500|e07b20ba-cd03-4f07-bb4b-5b42be2fcc40|b960e47a-e997-43ce-bc0c-72c4c61c1c52|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1231900|2527300|64592fe4-8dc9-4827-af8a-50a894db4382|00000000-0000-0000-0000-000000000000|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9|",
         ""
       ],
       [
