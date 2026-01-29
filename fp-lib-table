@@ -19,4 +19,6 @@
   (lib (name "HEDGE")(type "KiCad")(uri "${KICAD_USER_CADFILES}/HEDGE/footprints.pretty")(options "")(descr ""))
   (lib (name "PCM5102AQPWRQ1")(type "KiCad")(uri "${KICAD_USER_CADFILES}/PCM5102AQPWRQ1/footprints.pretty")(options "")(descr ""))
   (lib (name "SN74CBTLV3257PWR")(type "KiCad")(uri "${KICAD_USER_CADFILES}/SN74CBTLV3257PWR/footprints.pretty")(options "")(descr ""))
+  (lib (name "SC16IS752IPW")(type "KiCad")(uri "${KICAD_USER_CADFILES}/SC16IS752IPW/footprints.pretty")(options "")(descr ""))
+  (lib (name "ABLS-LR-3.072MHZ-T")(type "KiCad")(uri "${KICAD_USER_CADFILES}/ABLS-LR-3.072MHZ-T/footprints.pretty")(options "")(descr ""))
 )

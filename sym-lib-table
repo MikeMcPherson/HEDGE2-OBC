@@ -17,4 +17,6 @@
   (lib (name "MAX6635MSA_T")(type "KiCad")(uri "${KICAD_USER_CADFILES}/MAX6635MSA_T/MAX6635MSA_T.kicad_sym")(options "")(descr ""))
   (lib (name "PCM5102AQPWRQ1")(type "KiCad")(uri "${KICAD_USER_CADFILES}/PCM5102AQPWRQ1/2026-01-27_02-17-16.kicad_sym")(options "")(descr ""))
   (lib (name "SN74CBTLV3257PWR")(type "KiCad")(uri "${KICAD_USER_CADFILES}/SN74CBTLV3257PWR/2026-01-28_02-50-21.kicad_sym")(options "")(descr ""))
+  (lib (name "SC16IS752IPW")(type "KiCad")(uri "${KICAD_USER_CADFILES}/SC16IS752IPW/SC16IS752IPW.kicad_sym")(options "")(descr ""))
+  (lib (name "ABLS-LR-3.072MHZ-T")(type "KiCad")(uri "${KICAD_USER_CADFILES}/ABLS-LR-3.072MHZ-T/ABLS-LR-3.072MHZ-T.kicad_sym")(options "")(descr ""))
 )
