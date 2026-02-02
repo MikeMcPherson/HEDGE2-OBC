@@ -22,4 +22,5 @@
   (lib (name "SC16IS752IPW")(type "KiCad")(uri "${KICAD_USER_CADFILES}/SC16IS752IPW/footprints.pretty")(options "")(descr ""))
   (lib (name "ABLS-LR-3.072MHZ-T")(type "KiCad")(uri "${KICAD_USER_CADFILES}/ABLS-LR-3.072MHZ-T/footprints.pretty")(options "")(descr ""))
   (lib (name "XLH53xxxxxx")(type "KiCad")(uri "${KICAD_USER_CADFILES}/XLH53xxxxxx/footprints.pretty")(options "")(descr ""))
+  (lib (name "BNO055")(type "KiCad")(uri "${KICAD_USER_CADFILES}/BNO055/footprints.pretty")(options "")(descr ""))
 )

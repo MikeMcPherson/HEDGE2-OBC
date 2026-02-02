@@ -304,6 +304,496 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BNO055:BNO055"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -14.7397 15.7562 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "BNO055"
+				(at -14.7607 -19.5962 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "BNO055:LGA28R50P4X10_380X520X100"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey_Part_Number" "828-1058-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/BNO055/Bosch/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "BNO055 series Accelerometer, Gyroscope, Magnetometer, 3 Axis Sensor Evaluation Board"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "LGA-28 Bosch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/BNO055/Bosch/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Bosch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "BNO055"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "BOSCH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "BNO055_0_0"
+				(rectangle
+					(start -15.24 -17.78)
+					(end 15.24 15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -20.32 12.7 0)
+					(length 5.08)
+					(name "PS0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 10.16 0)
+					(length 5.08)
+					(name "PS1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 7.62 0)
+					(length 5.08)
+					(name "XIN32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 5.08 0)
+					(length 5.08)
+					(name "NRESET"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 0 0)
+					(length 5.08)
+					(name "NBOOT_LOAD_PIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -2.54 0)
+					(length 5.08)
+					(name "COM0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -5.08 0)
+					(length 5.08)
+					(name "COM1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -7.62 0)
+					(length 5.08)
+					(name "COM2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -10.16 0)
+					(length 5.08)
+					(name "COM3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -15.24 0)
+					(length 5.08)
+					(name "CAP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 12.7 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 10.16 180)
+					(length 5.08)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 5.08 180)
+					(length 5.08)
+					(name "XOUT32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 2.54 180)
+					(length 5.08)
+					(name "INT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "PIN10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(name "PIN15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -10.16 180)
+					(length 5.08)
+					(name "PIN16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -12.7 180)
+					(length 5.08)
+					(name "GNDIO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -15.24 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CM4IO:ComputeModule4-CM4"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4347,6 +4837,271 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Crystal_GND24"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 3.175 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Crystal_GND24"
+				(at 3.175 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_GND24_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.27) (xy -2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(hide yes)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9997,9 +10752,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "0x48"
+	(text "0x28"
 		(exclude_from_sim no)
-		(at 405.13 396.24 0)
+		(at 194.31 265.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10093,28 +10848,6 @@
 		)
 		(uuid "1d2b0932-43f5-4509-b0b2-fc1793b4ce53")
 	)
-	(text_box "SPACECRAFT BUS"
-		(exclude_from_sim no)
-		(at 15.875 17.78 0)
-		(size 79.375 153.035)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right top)
-		)
-		(uuid "3dbf3dbc-9ccf-4e1f-bfd3-c4fed26703a3")
-	)
 	(text_box "Housekeeping (VOLT/CURR)"
 		(exclude_from_sim no)
 		(at 310.515 358.775 0)
@@ -10181,10 +10914,10 @@
 		)
 		(uuid "bf65891b-045c-4018-b4ce-dcf13b6d7bfd")
 	)
-	(text_box "Housekeeping (TEMP)"
+	(text_box "IMU and Housekeeping (TEMP)"
 		(exclude_from_sim no)
-		(at 379.73 381.635 0)
-		(size 52.07 34.925)
+		(at 175.26 238.76 0)
+		(size 114.3 68.58)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0.254)
@@ -10340,6 +11073,12 @@
 		(uuid "12e4e0d3-5ff0-4885-8d9d-39f18ec5b189")
 	)
 	(junction
+		(at 199.39 273.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15882648-43e1-4a42-88e7-c7752b008e80")
+	)
+	(junction
 		(at 433.07 135.89)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -10368,6 +11107,12 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "2225f813-639f-414b-9926-6d1cdf2d91e2")
+	)
+	(junction
+		(at 180.34 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22cebb49-f9ee-400c-b164-ad1427d73bea")
 	)
 	(junction
 		(at 532.13 378.46)
@@ -10410,6 +11155,12 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "31d41b04-0d14-4ad4-8c81-1826debfbc9f")
+	)
+	(junction
+		(at 260.35 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36fcdd0b-de08-4433-9268-2bca1b2a24be")
 	)
 	(junction
 		(at 383.54 59.69)
@@ -10514,12 +11265,6 @@
 		(uuid "692d7622-3666-46a7-ba98-6b029dc8aa54")
 	)
 	(junction
-		(at 394.97 396.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a683673-8ad6-487c-a888-22c262965a32")
-	)
-	(junction
 		(at 158.75 264.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10592,6 +11337,12 @@
 		(uuid "8f014f8b-7a8e-4227-bf48-151d3dadade6")
 	)
 	(junction
+		(at 251.46 278.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9197017b-e203-4586-be0c-4c9d80ceadf2")
+	)
+	(junction
 		(at 115.57 398.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10626,6 +11377,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d533515-739c-4812-aacb-171ead430ad2")
+	)
+	(junction
+		(at 205.74 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ed80c13-d722-4d8b-93a7-527509bb04d3")
+	)
+	(junction
+		(at 260.35 252.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a35e275f-3caf-484e-817a-3ae284628fd5")
 	)
 	(junction
 		(at 320.04 67.31)
@@ -10722,6 +11485,12 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "d775394c-3f71-4579-aace-cace3036ade4")
+	)
+	(junction
+		(at 269.24 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7d75a94-2f25-446e-8009-9cc52caf04f0")
 	)
 	(junction
 		(at 433.07 120.65)
@@ -10844,10 +11613,6 @@
 		(uuid "061c9d50-c0ab-4e1f-8abd-3eb31bd5effc")
 	)
 	(no_connect
-		(at 321.31 87.63)
-		(uuid "0794efae-38e5-4b4c-a77d-fc29b39f77ef")
-	)
-	(no_connect
 		(at 41.91 330.2)
 		(uuid "09504045-b41e-4a64-85b8-b1ddf68393c1")
 	)
@@ -10874,6 +11639,10 @@
 	(no_connect
 		(at 496.57 156.21)
 		(uuid "129a3540-ee22-48e1-9ef5-5e000290f681")
+	)
+	(no_connect
+		(at 248.92 273.05)
+		(uuid "14e8aaa3-5f47-4f45-9f7c-fc5a6cc4fb38")
 	)
 	(no_connect
 		(at 435.61 102.87)
@@ -10906,10 +11675,6 @@
 	(no_connect
 		(at 43.18 63.5)
 		(uuid "1a28c423-e009-43b8-8930-28aa7191b778")
-	)
-	(no_connect
-		(at 321.31 105.41)
-		(uuid "1d9da186-28a4-4896-978e-36fcc6fc56f4")
 	)
 	(no_connect
 		(at 68.58 27.94)
@@ -10996,6 +11761,10 @@
 		(uuid "3a240ed2-f231-4561-a36b-8e858ddc9e32")
 	)
 	(no_connect
+		(at 43.18 109.22)
+		(uuid "3a5700d9-01b5-4d61-80d8-adcc0b50d8ac")
+	)
+	(no_connect
 		(at 444.5 306.07)
 		(uuid "3d77b662-ae7b-48a5-b589-731b71140d4d")
 	)
@@ -11040,6 +11809,10 @@
 		(uuid "45574dd5-a274-4563-82e4-de3c5bc31ebe")
 	)
 	(no_connect
+		(at 248.92 270.51)
+		(uuid "486910e1-aada-4be7-8350-cf41d7e78615")
+	)
+	(no_connect
 		(at 496.57 95.25)
 		(uuid "4a312c6c-ef43-487b-8021-b6e4d9dc9ce6")
 	)
@@ -11050,6 +11823,10 @@
 	(no_connect
 		(at 496.57 87.63)
 		(uuid "4c57d1e6-848b-4602-91b3-9448f66daf6d")
+	)
+	(no_connect
+		(at 43.18 111.76)
+		(uuid "4d9cf63c-ceef-462b-bde9-b867b2e47a86")
 	)
 	(no_connect
 		(at 496.57 130.81)
@@ -11110,6 +11887,10 @@
 	(no_connect
 		(at 43.18 160.02)
 		(uuid "5bea3085-530c-41a0-8759-6f7aa383f2cb")
+	)
+	(no_connect
+		(at 248.92 267.97)
+		(uuid "5e0967b3-99b8-4383-a13f-b59ebd3761fe")
 	)
 	(no_connect
 		(at 43.18 134.62)
@@ -11292,6 +12073,10 @@
 		(uuid "96ea5c01-a272-4ab0-af01-318f4df1326a")
 	)
 	(no_connect
+		(at 68.58 111.76)
+		(uuid "98d7a3ff-7c23-4b1b-bef2-dcedca9f08c1")
+	)
+	(no_connect
 		(at 382.27 72.39)
 		(uuid "9941a168-5474-434f-a7fe-240c1bdfb87a")
 	)
@@ -11390,6 +12175,10 @@
 	(no_connect
 		(at 68.58 106.68)
 		(uuid "b9f39000-ce95-4157-873f-22b75db63177")
+	)
+	(no_connect
+		(at 68.58 109.22)
+		(uuid "babe823e-48a7-40ed-9327-1e4f54be4356")
 	)
 	(no_connect
 		(at 382.27 57.15)
@@ -11540,8 +12329,16 @@
 		(uuid "e0c206ce-50ed-4738-bd27-7714fb708c1f")
 	)
 	(no_connect
+		(at 43.18 114.3)
+		(uuid "e3b0d841-fb11-4c2e-84b9-9df16e24628e")
+	)
+	(no_connect
 		(at 68.58 50.8)
 		(uuid "e3ea46a3-df92-4dbf-a30f-7ba5037601bd")
+	)
+	(no_connect
+		(at 68.58 114.3)
+		(uuid "e4bbe612-ecce-4cb7-a9ea-b618c668deef")
 	)
 	(no_connect
 		(at 496.57 123.19)
@@ -11783,6 +12580,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 275.59) (xy 251.46 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07875e92-3513-46ee-babb-cd5d6814a5d1")
+	)
+	(wire
+		(pts
 			(xy 330.2 405.13) (xy 327.66 405.13)
 		)
 		(stroke
@@ -11853,6 +12660,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 257.81) (xy 180.34 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0edec8c1-0a4c-4343-aa35-929e2ca6d5ca")
+	)
+	(wire
+		(pts
 			(xy 156.21 410.21) (xy 157.48 410.21)
 		)
 		(stroke
@@ -11920,6 +12737,16 @@
 			(type default)
 		)
 		(uuid "12d41030-a715-42da-b2d3-75427a6f3d71")
+	)
+	(wire
+		(pts
+			(xy 232.41 293.37) (xy 233.68 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "130217d4-0382-432e-8d56-1e6722b34bed")
 	)
 	(wire
 		(pts
@@ -12000,16 +12827,6 @@
 			(type default)
 		)
 		(uuid "175caff1-9336-48ad-af4a-77948c65b910")
-	)
-	(wire
-		(pts
-			(xy 397.51 394.97) (xy 394.97 394.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1791cf6c-a6b4-4a9c-9bae-aff532f6ee85")
 	)
 	(wire
 		(pts
@@ -12190,6 +13007,16 @@
 			(type solid)
 		)
 		(uuid "21639287-bcf4-4a16-8159-9d01822f3fd6")
+	)
+	(wire
+		(pts
+			(xy 269.24 256.54) (xy 269.24 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21a72d02-dde8-4fac-9232-2412473144d4")
 	)
 	(wire
 		(pts
@@ -12483,13 +13310,13 @@
 	)
 	(wire
 		(pts
-			(xy 397.51 397.51) (xy 394.97 397.51)
+			(xy 208.28 287.02) (xy 208.28 288.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30c86160-f490-49a7-a11e-745296173203")
+		(uuid "30d2ceab-06e7-49f4-a68a-f90b4b6ed4be")
 	)
 	(wire
 		(pts
@@ -12563,6 +13390,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 250.19) (xy 195.58 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35751b98-d729-4472-b701-b178af741398")
+	)
+	(wire
+		(pts
 			(xy 532.13 378.46) (xy 530.86 378.46)
 		)
 		(stroke
@@ -12570,6 +13407,16 @@
 			(type default)
 		)
 		(uuid "367104dc-f1d1-44fc-9d22-1dc00400b270")
+	)
+	(wire
+		(pts
+			(xy 251.46 278.13) (xy 248.92 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3691677f-d3ae-49af-ab1f-33d028d25d44")
 	)
 	(wire
 		(pts
@@ -12603,13 +13450,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 121.92) (xy 69.85 121.92)
+			(xy 223.52 293.37) (xy 224.79 293.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "383acbca-6c6e-453f-b749-03c49834d16c")
+		(uuid "385097ce-3bb2-4adc-b717-c13fe8708414")
 	)
 	(wire
 		(pts
@@ -12670,6 +13517,16 @@
 			(type solid)
 		)
 		(uuid "3cb685e3-eac7-4f89-8c3a-f75eb36cdbc2")
+	)
+	(wire
+		(pts
+			(xy 251.46 278.13) (xy 251.46 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc63bd3-dc72-401e-bb04-277ba6b39396")
 	)
 	(wire
 		(pts
@@ -12743,6 +13600,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 275.59) (xy 251.46 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f59b7b8-0b1e-4945-8c95-02d09157a023")
+	)
+	(wire
+		(pts
 			(xy 383.54 92.71) (xy 383.54 105.41)
 		)
 		(stroke
@@ -12750,6 +13617,16 @@
 			(type solid)
 		)
 		(uuid "40bd6958-3ace-4bf1-99ab-d048d1b09e86")
+	)
+	(wire
+		(pts
+			(xy 248.92 260.35) (xy 250.19 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "420240b6-b373-4b59-9da6-38afcdebe976")
 	)
 	(wire
 		(pts
@@ -12833,6 +13710,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 270.51) (xy 199.39 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "498dbe7d-3d2b-446e-8848-440bf0a8bc9b")
+	)
+	(wire
+		(pts
 			(xy 255.27 382.27) (xy 255.27 384.81)
 		)
 		(stroke
@@ -12853,17 +13740,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 397.51) (xy 394.97 396.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4acc80cd-3ee3-463d-844d-49bff439d516")
-	)
-	(wire
-		(pts
-			(xy 396.24 401.32) (xy 397.51 401.32)
+			(xy 207.01 267.97) (xy 208.28 267.97)
 		)
 		(stroke
 			(width 0)
@@ -12890,6 +13767,16 @@
 			(type solid)
 		)
 		(uuid "4f502803-5f11-48c3-bc78-3358bd677e4f")
+	)
+	(wire
+		(pts
+			(xy 318.77 105.41) (xy 321.31 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fa75de4-82e7-4dd1-a057-ad1bb73e6da9")
 	)
 	(wire
 		(pts
@@ -12963,6 +13850,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 252.73) (xy 205.74 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5486ede2-4284-44ad-af59-9018ab3534e3")
+	)
+	(wire
+		(pts
 			(xy 227.33 328.93) (xy 227.33 330.2)
 		)
 		(stroke
@@ -13000,6 +13897,26 @@
 			(type default)
 		)
 		(uuid "57f3a9f2-20f2-4d61-8bf8-d98084f76852")
+	)
+	(wire
+		(pts
+			(xy 260.35 250.19) (xy 260.35 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b19d7e5-79e3-4e80-a934-cbaa397f06b6")
+	)
+	(wire
+		(pts
+			(xy 248.92 252.73) (xy 260.35 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b897d3f-83fe-47f3-a99a-4794c4a78ca6")
 	)
 	(wire
 		(pts
@@ -13090,6 +14007,16 @@
 			(type default)
 		)
 		(uuid "61420060-9cc3-42bb-9220-f4cc1f30a2cb")
+	)
+	(wire
+		(pts
+			(xy 260.35 250.19) (xy 248.92 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "614cda85-6245-4693-8e47-db12060b9cf4")
 	)
 	(wire
 		(pts
@@ -13263,6 +14190,26 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 257.81) (xy 260.35 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "697c195c-69b5-47c9-9f41-3dd78ac8abed")
+	)
+	(wire
+		(pts
+			(xy 248.92 257.81) (xy 250.19 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69c7a110-e94a-4651-9d5a-f8c5da2aa810")
+	)
+	(wire
+		(pts
 			(xy 123.19 262.89) (xy 124.46 262.89)
 		)
 		(stroke
@@ -13273,13 +14220,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 116.84) (xy 69.85 116.84)
+			(xy 199.39 270.51) (xy 199.39 273.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6afc0b6d-5f9b-4526-bf3b-bee76f4ccdc5")
+		(uuid "6ad18da1-48f0-4b6c-8aff-71de6433a105")
 	)
 	(wire
 		(pts
@@ -13380,26 +14327,6 @@
 			(type default)
 		)
 		(uuid "70d455b2-2559-4d4b-af98-08a1fb9eda05")
-	)
-	(wire
-		(pts
-			(xy 41.91 124.46) (xy 43.18 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71e99c0e-e908-46f4-9c81-d475a7cba37b")
-	)
-	(wire
-		(pts
-			(xy 41.91 116.84) (xy 43.18 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "728248ff-58a3-478c-9126-07f220b9d0e6")
 	)
 	(wire
 		(pts
@@ -13510,6 +14437,16 @@
 			(type default)
 		)
 		(uuid "77231f18-7389-4bf4-aa0e-63d43fd32acb")
+	)
+	(wire
+		(pts
+			(xy 180.34 284.48) (xy 180.34 285.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7750bdb6-73e8-4cf7-b1a0-efbb293b502f")
 	)
 	(wire
 		(pts
@@ -13763,7 +14700,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 391.16) (xy 397.51 391.16)
+			(xy 269.24 250.19) (xy 260.35 250.19)
 		)
 		(stroke
 			(width 0)
@@ -13790,6 +14727,16 @@
 			(type solid)
 		)
 		(uuid "8aa70c5e-a265-416d-9aaa-9cd184c20e41")
+	)
+	(wire
+		(pts
+			(xy 208.28 257.81) (xy 180.34 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb9c2ac-e9e8-412d-9d00-e01d56faab22")
 	)
 	(wire
 		(pts
@@ -13883,6 +14830,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 245.11) (xy 180.34 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9089aeb2-dddb-4593-a2cf-7009cfaa7487")
+	)
+	(wire
+		(pts
 			(xy 433.07 67.31) (xy 433.07 74.93)
 		)
 		(stroke
@@ -13933,6 +14890,16 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 87.63) (xy 321.31 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "937f6a08-3ce5-4039-ad98-d08895349005")
+	)
+	(wire
+		(pts
 			(xy 217.17 387.35) (xy 218.44 387.35)
 		)
 		(stroke
@@ -13953,13 +14920,23 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 109.22) (xy 43.18 109.22)
+			(xy 180.34 262.89) (xy 180.34 279.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "95ac47c0-418d-4762-8c71-d33e3704f52a")
+		(uuid "95049643-024e-4bc5-8c3c-10573ac4c7d9")
+	)
+	(wire
+		(pts
+			(xy 205.74 250.19) (xy 208.28 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "954047eb-a453-496d-8a90-9a0bbf4517ea")
 	)
 	(wire
 		(pts
@@ -14013,16 +14990,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 114.3) (xy 69.85 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ad336e0-c68a-4e03-aa8b-30b39ad0453d")
-	)
-	(wire
-		(pts
 			(xy 499.11 97.79) (xy 499.11 90.17)
 		)
 		(stroke
@@ -14073,16 +15040,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 124.46) (xy 69.85 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cfc546f-8778-4cdd-93d8-280c12d9cdb5")
-	)
-	(wire
-		(pts
 			(xy 58.42 364.49) (xy 58.42 367.03)
 		)
 		(stroke
@@ -14093,13 +15050,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 109.22) (xy 69.85 109.22)
+			(xy 207.01 255.27) (xy 208.28 255.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d22eed6-2497-42fd-922f-0ab7c32f262b")
+		(uuid "9d195f6a-d25d-4a11-97c6-cebf9c2e3777")
 	)
 	(wire
 		(pts
@@ -14110,16 +15067,6 @@
 			(type solid)
 		)
 		(uuid "9d5352c3-9593-4f42-ad7e-7fe7144c0e64")
-	)
-	(wire
-		(pts
-			(xy 68.58 119.38) (xy 69.85 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d72e42c-77d9-475b-9c01-c6f4a89d48c6")
 	)
 	(wire
 		(pts
@@ -14333,6 +15280,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 278.13) (xy 208.28 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9658d1d-a654-43ad-a2c7-664f14a7ed43")
+	)
+	(wire
+		(pts
 			(xy 499.11 143.51) (xy 499.11 151.13)
 		)
 		(stroke
@@ -14360,6 +15317,16 @@
 			(type default)
 		)
 		(uuid "ab5e4a8c-b54b-45be-9571-93b9c7ac36ab")
+	)
+	(wire
+		(pts
+			(xy 228.6 298.45) (xy 228.6 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab638799-b6a6-4a71-bb5d-0d1a1ca11802")
 	)
 	(wire
 		(pts
@@ -14480,6 +15447,16 @@
 			(type default)
 		)
 		(uuid "b1ab688f-1e91-448a-bf69-08c8eb0c47ea")
+	)
+	(wire
+		(pts
+			(xy 269.24 250.19) (xy 269.24 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1b6ca92-578f-492c-8058-cc0f891e0e41")
 	)
 	(wire
 		(pts
@@ -14733,16 +15710,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 119.38) (xy 43.18 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c121859e-9ce3-4b3c-b876-f532819bb391")
-	)
-	(wire
-		(pts
 			(xy 492.76 364.49) (xy 495.3 364.49)
 		)
 		(stroke
@@ -14863,7 +15830,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 405.13) (xy 397.51 405.13)
+			(xy 207.01 265.43) (xy 208.28 265.43)
 		)
 		(stroke
 			(width 0)
@@ -14953,16 +15920,6 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 394.97) (xy 394.97 396.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d14d499c-c60c-4aa2-8e95-03683c0a9dea")
-	)
-	(wire
-		(pts
 			(xy 227.33 349.25) (xy 227.33 350.52)
 		)
 		(stroke
@@ -15013,16 +15970,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 111.76) (xy 43.18 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d38ec89c-3b26-47c9-a93f-c96ea6ca73f3")
-	)
-	(wire
-		(pts
 			(xy 40.64 247.65) (xy 40.64 248.92)
 		)
 		(stroke
@@ -15063,13 +16010,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 111.76) (xy 69.85 111.76)
+			(xy 180.34 262.89) (xy 208.28 262.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d766e925-9e1f-44e7-aa59-50d535ccd4c4")
+		(uuid "d62e2957-01d0-469e-80c1-5596ec7e4b59")
 	)
 	(wire
 		(pts
@@ -15133,13 +16080,13 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 121.92) (xy 43.18 121.92)
+			(xy 195.58 250.19) (xy 205.74 250.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9f5a590-8c5e-47a7-b6cc-ee5831483a42")
+		(uuid "da295ed4-c73f-4e65-ad8c-6fb1934fc7f1")
 	)
 	(wire
 		(pts
@@ -15233,6 +16180,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 257.81) (xy 180.34 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df97ffc9-8498-4722-9257-a293dc0028f7")
+	)
+	(wire
+		(pts
 			(xy 433.07 128.27) (xy 433.07 135.89)
 		)
 		(stroke
@@ -15300,6 +16257,26 @@
 			(type default)
 		)
 		(uuid "e51a1ff8-33d1-41ef-a5d1-e09a85d0d785")
+	)
+	(wire
+		(pts
+			(xy 205.74 252.73) (xy 205.74 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e57e19cf-85be-43f4-9183-aa8c1814c852")
+	)
+	(wire
+		(pts
+			(xy 199.39 273.05) (xy 208.28 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7d8537a-2075-4a2d-b9a4-92ba7bd4e968")
 	)
 	(wire
 		(pts
@@ -15500,16 +16477,6 @@
 			(type default)
 		)
 		(uuid "f474bea7-2c6c-4018-b5c8-7e5b63e26374")
-	)
-	(wire
-		(pts
-			(xy 41.91 114.3) (xy 43.18 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f48c603a-b84b-43e1-9c7a-d660fc30491b")
 	)
 	(wire
 		(pts
@@ -16097,7 +17064,7 @@
 		)
 		(uuid "040547ec-2bd8-4462-b518-4455d04ed5dd")
 	)
-	(label "UART_E_RX"
+	(label "UART_SCI_RX"
 		(at 69.85 40.64 0)
 		(effects
 			(font
@@ -16126,16 +17093,6 @@
 			(justify right bottom)
 		)
 		(uuid "078cf762-1ac5-488b-8fe7-0b0485d5541a")
-	)
-	(label "PWR_8"
-		(at 69.85 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "084bfd7b-1d74-434c-8180-adf7972aee6a")
 	)
 	(label "CAN_B_L"
 		(at 69.85 88.9 0)
@@ -16186,16 +17143,6 @@
 			(justify left bottom)
 		)
 		(uuid "154f07ab-6f00-483d-97a6-0b1cc6d1bfab")
-	)
-	(label "BATT"
-		(at 69.85 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "16b6e0e2-8a53-41f3-90eb-9f17418180ae")
 	)
 	(label "OUTL"
 		(at 60.96 260.35 180)
@@ -16257,16 +17204,6 @@
 		)
 		(uuid "21a2c21a-a1d5-4ccb-8622-3c1a36d19c76")
 	)
-	(label "ENA_PWR_8"
-		(at 41.91 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "26889275-289f-4aac-8baa-ce638a16fd51")
-	)
 	(label "SCL0_3V3"
 		(at 280.67 400.05 180)
 		(effects
@@ -16277,7 +17214,7 @@
 		)
 		(uuid "27eb5841-9758-4f4a-8931-d55e02f2f923")
 	)
-	(label "UART_E_RX"
+	(label "UART_SCI_RX"
 		(at 187.96 403.86 0)
 		(effects
 			(font
@@ -16307,7 +17244,7 @@
 		)
 		(uuid "2d3b910e-120a-4c74-9ae3-51671fd40407")
 	)
-	(label "UART_E_TX"
+	(label "UART_SCI_TX"
 		(at 69.85 43.18 0)
 		(effects
 			(font
@@ -16367,16 +17304,6 @@
 		)
 		(uuid "370397eb-8afb-4eb3-9884-b0d009198d7a")
 	)
-	(label "PWR_7"
-		(at 69.85 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3965be0d-1d75-4dee-8204-5913f92bd1c6")
-	)
 	(label "UART_SCI_B"
 		(at 156.21 403.86 180)
 		(effects
@@ -16427,7 +17354,17 @@
 		)
 		(uuid "3f34ff65-eaf1-4001-aa36-ef24808103c1")
 	)
-	(label "UART_E_TX"
+	(label "XIN32"
+		(at 207.01 255.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4124e82c-d39e-49a2-bb72-7378b6c8243d")
+	)
+	(label "UART_SCI_TX"
 		(at 187.96 407.67 0)
 		(effects
 			(font
@@ -16438,7 +17375,7 @@
 		(uuid "423e2597-3c83-41d4-afaf-06d3c45ea98b")
 	)
 	(label "SCL0_3V3"
-		(at 396.24 401.32 180)
+		(at 207.01 267.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16456,16 +17393,6 @@
 			(justify right bottom)
 		)
 		(uuid "43f19375-403e-48e0-9a68-885616ba9a76")
-	)
-	(label "BATT"
-		(at 41.91 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "47d9ad02-6be2-4d0e-9082-5ddc51aee66c")
 	)
 	(label "CAN_A_H"
 		(at 227.33 322.58 0)
@@ -16587,16 +17514,6 @@
 		)
 		(uuid "61eb3b1c-c14e-4e6e-a96f-ea0e6ddb6396")
 	)
-	(label "PWR_5"
-		(at 69.85 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "632c0d05-a7be-4b95-89ef-af656c9fd551")
-	)
 	(label "GNSS_NRESET_IN"
 		(at 445.77 321.31 0)
 		(effects
@@ -16606,6 +17523,16 @@
 			(justify left bottom)
 		)
 		(uuid "66db4ddd-b3bb-4678-ac54-a70d33ec93ba")
+	)
+	(label "INT_BNO"
+		(at 250.19 260.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ba23c56-4bc3-4b25-a6cb-6bdd7b6bdf67")
 	)
 	(label "LDOO"
 		(at 124.46 252.73 0)
@@ -16808,15 +17735,15 @@
 		)
 		(uuid "8e0566c4-371f-4540-bd99-a3a146f472cd")
 	)
-	(label "BATT"
-		(at 69.85 111.76 0)
+	(label "INT_BNO"
+		(at 318.77 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "8eb5bec8-1591-4dc0-88d1-62495c300bff")
+		(uuid "919fb2ef-e012-427f-9133-f83673c8326a")
 	)
 	(label "CAN_B_RXD"
 		(at 255.27 345.44 180)
@@ -16928,15 +17855,15 @@
 		)
 		(uuid "9c2497d4-20a5-4bba-a29d-8fdb340a0293")
 	)
-	(label "ENA_PWR_5"
-		(at 41.91 124.46 180)
+	(label "XOUT32"
+		(at 250.19 257.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "9c79bea8-2055-422d-b2dc-8afdd02ed3d6")
+		(uuid "9deade4c-2635-480c-a35a-23f96652c57b")
 	)
 	(label "GNSS_PPS"
 		(at 445.77 323.85 0)
@@ -16948,6 +17875,16 @@
 		)
 		(uuid "9f457e1c-2838-43aa-97e9-1a02f54580c4")
 	)
+	(label "NRESET_BNO"
+		(at 180.34 260.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9fb28c8e-bf88-4995-b574-5d27b18f4197")
+	)
 	(label "DOUT{slash}DIO13_XB"
 		(at 69.85 165.1 0)
 		(effects
@@ -16957,16 +17894,6 @@
 			(justify left bottom)
 		)
 		(uuid "a008a2ea-4183-4657-9a4f-9efe3d034e6a")
-	)
-	(label "BATT"
-		(at 41.91 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a1a3b844-fdb8-4d37-8a71-41e1049cdd79")
 	)
 	(label "UART_SCI_B"
 		(at 318.77 85.09 180)
@@ -16988,25 +17915,15 @@
 		)
 		(uuid "a68ff3a6-9a61-49d8-b1fe-662d8dacc74f")
 	)
-	(label "BATT"
-		(at 41.91 111.76 180)
+	(label "XIN32"
+		(at 223.52 293.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "a75fd3a6-0f20-4685-9dec-afac6f558dd0")
-	)
-	(label "PWR_6"
-		(at 69.85 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aefd5e3a-7950-45e7-867c-e2122169b420")
+		(uuid "aba038ca-bc6e-4577-86d7-cd1e1983a31a")
 	)
 	(label "SPI3_MISO"
 		(at 384.81 95.25 0)
@@ -17110,6 +18027,16 @@
 		)
 		(uuid "c149579f-92d8-4e28-9be3-4261b0efddeb")
 	)
+	(label "NRESET_BNO"
+		(at 318.77 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c2064e50-8a07-432e-8067-5db5e238a776")
+	)
 	(label "CAN_B_TXD"
 		(at 255.27 347.98 180)
 		(effects
@@ -17139,16 +18066,6 @@
 			(justify right bottom)
 		)
 		(uuid "ca00289f-720f-41b4-80b7-9585b7f7b6e4")
-	)
-	(label "ENA_PWR_7"
-		(at 41.91 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d0df0641-34c4-4b61-a1df-e2f65be781b3")
 	)
 	(label "SCL0_5V"
 		(at 328.93 402.59 180)
@@ -17240,6 +18157,16 @@
 		)
 		(uuid "de1507d5-696e-4147-98b3-255c69f1d35c")
 	)
+	(label "XOUT32"
+		(at 233.68 293.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e19c85b4-fcab-4965-b221-99dfed3bd5c7")
+	)
 	(label "SCL0_5V"
 		(at 217.17 402.59 180)
 		(effects
@@ -17301,16 +18228,6 @@
 		)
 		(uuid "f3d8d40c-9f61-4ef8-a839-d7d17adff4a8")
 	)
-	(label "BATT"
-		(at 69.85 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f428e3ef-b772-4d35-b17e-1443ca5bf454")
-	)
 	(label "SPI3_SCLK"
 		(at 402.59 334.01 180)
 		(effects
@@ -17331,18 +18248,8 @@
 		)
 		(uuid "f74d2c45-0686-473c-9fac-d97337c9a12a")
 	)
-	(label "ENA_PWR_6"
-		(at 41.91 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fc5134df-0754-4434-bbaf-a349567d3ef9")
-	)
 	(label "SDA0_3V3"
-		(at 396.24 405.13 180)
+		(at 207.01 265.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17360,7 +18267,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d18172e")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR090"
 			(at 499.11 189.23 0)
 			(effects
 				(font
@@ -17409,7 +18316,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR082")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -17424,7 +18331,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d1874b1")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR078"
 			(at 433.07 189.23 0)
 			(effects
 				(font
@@ -17473,7 +18380,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR070")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -17488,7 +18395,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e15bd87")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR064"
 			(at 320.04 187.96 0)
 			(effects
 				(font
@@ -17537,7 +18444,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR054")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -17552,7 +18459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e16bb43")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR071"
 			(at 383.54 187.96 0)
 			(effects
 				(font
@@ -17601,7 +18508,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR061")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -17654,6 +18561,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 40.64 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 40.64 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 40.64 267.97 0)
 			(effects
 				(font
@@ -17724,6 +18649,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 135.89 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 135.89 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 135.89 250.19 0)
 			(effects
 				(font
@@ -17823,7 +18766,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "082e1f27-a83a-41c7-9497-fb7b52f53166")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR050"
 			(at 255.27 364.49 0)
 			(effects
 				(font
@@ -17872,7 +18815,101 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR043")
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal_GND24")
+		(at 228.6 293.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b473715-1176-4dbd-9b7d-7a65a5ef8874")
+		(property "Reference" "Y1"
+			(at 228.6 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "QT325S-32.768MAHE-T"
+			(at 228.6 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+			(at 228.6 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 228.6 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+			(at 228.6 306.07 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+			(at 228.6 308.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "059cbea4-a733-4b23-ac0c-9f3915876736")
+		)
+		(pin "2"
+			(uuid "dc2e7a86-34b1-4941-8466-ef99d0bc446c")
+		)
+		(pin "3"
+			(uuid "f8fe78f2-677b-4263-a382-4239c14a4e00")
+		)
+		(pin "4"
+			(uuid "614def3b-c429-4ea7-9ce4-22926cbff645")
+		)
+		(instances
+			(project ""
+				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -17887,7 +18924,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0be687ea-dc8a-45c5-8af2-05f9d24f5331")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 287.02 386.08 90)
 			(effects
 				(font
@@ -17957,6 +18994,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 287.02 391.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 287.02 391.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "45b3584e-3e4b-4d1c-8573-f468546ba94e")
 		)
@@ -17966,7 +19021,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -17983,7 +19038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "132df29a-0c67-4742-9a98-07975d797f22")
-		(property "Reference" "C18"
+		(property "Reference" "C19"
 			(at 215.8937 344.17 90)
 			(effects
 				(font
@@ -18053,6 +19108,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 215.9 350.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 215.9 350.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d2e98ea3-a00e-4baa-9b49-dfcd3b4d057c")
 		)
@@ -18062,7 +19135,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "C18")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -18123,6 +19196,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 45.72 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 45.72 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4aade0df-ee88-46f9-9cf2-f55d3a57b89d")
 		)
@@ -18148,7 +19239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14464e86-0b96-4b8c-bbc0-9f57f8fc04d2")
-		(property "Reference" "C21"
+		(property "Reference" "C24"
 			(at 389.255 298.4562 0)
 			(effects
 				(font
@@ -18193,6 +19284,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 386.08 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 386.08 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dc892e2e-3983-450c-bc2b-6ba86247d1a5")
 		)
@@ -18202,7 +19311,7 @@
 		(instances
 			(project ""
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "C21")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -18300,6 +19409,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 472.44 209.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 472.44 209.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "619cc879-a7bf-438f-902b-8e009f7fb626")
 		)
@@ -18330,7 +19457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19c97de0-5926-403c-a880-4e80a07604f4")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR079"
 			(at 448.31 344.17 0)
 			(effects
 				(font
@@ -18381,7 +19508,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR071")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -18396,7 +19523,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ffea20e-69d1-47f3-bd9f-a7728de36a93")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR051"
 			(at 251.46 379.73 0)
 			(effects
 				(font
@@ -18447,7 +19574,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR044")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -18462,7 +19589,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "201e4132-554e-431d-92bc-0b769dea8ba1")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR044"
 			(at 213.36 370.84 0)
 			(effects
 				(font
@@ -18513,7 +19640,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR039")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -18583,6 +19710,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 124.46 403.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 124.46 403.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a8f7cb2d-0628-468c-97f5-9616e13bcdb1")
 		)
@@ -18607,7 +19752,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "216c0a4b-11e2-4d59-bfc4-86b23e025bb0")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR049"
 			(at 259.08 331.47 0)
 			(effects
 				(font
@@ -18658,7 +19803,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR042")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -18799,6 +19944,72 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
+		(at 180.34 285.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25df16e0-75de-49eb-affa-7f6956214738")
+		(property "Reference" "#PWR038"
+			(at 176.53 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3<CM4"
+			(at 184.15 285.7501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 180.34 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4aa80c2c-11a8-4109-a7a2-a021caa4b3a1")
+		)
+		(instances
+			(project "HEDGE2-OBC"
+				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
 		(at 313.69 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18806,7 +20017,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2826b9d8-d141-43fb-877e-ea52065d6776")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR062"
 			(at 317.5 156.21 0)
 			(effects
 				(font
@@ -18857,13 +20068,101 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR052")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
 			(project ""
 				(path "/ace5002f-3cbc-4a0a-869b-0e31ebd905b7/893aef5a-59ff-410b-9a71-9930aaf04e9f"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 269.24 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28861a57-0d8a-465c-afbb-8b36cd3ed07c")
+		(property "Reference" "C23"
+			(at 271.78 252.7362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 271.78 255.2762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 269.24 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 269.24 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 269.24 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 269.24 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "661a36a7-90c4-40e3-b5aa-9fbefa033f51")
+		)
+		(pin "2"
+			(uuid "694a00db-e83b-4af5-84d6-97532d660b81")
+		)
+		(instances
+			(project ""
+				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -19247,6 +20546,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 68.58 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 68.58 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ec46cb6c-19fb-49b2-844d-6b22428963a4")
 		)
@@ -19281,7 +20598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30ce46a2-a74c-48e1-8eed-e910cc43fcfe")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR073"
 			(at 379.73 295.91 0)
 			(effects
 				(font
@@ -19332,7 +20649,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR063")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -19347,7 +20664,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3229036f-6b3b-4d44-904c-ac04662d6ba3")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 391.16 339.0899 0)
 			(effects
 				(font
@@ -19392,6 +20709,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 388.62 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 388.62 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d7b1d874-1652-42d5-8f96-d7c1a14a9fb9")
 		)
@@ -19401,7 +20736,7 @@
 		(instances
 			(project ""
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -19417,7 +20752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3379db40-998d-498b-afd8-b506e68fe705")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR089"
 			(at 495.3 383.54 0)
 			(effects
 				(font
@@ -19467,7 +20802,7 @@
 		(instances
 			(project ""
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR081")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -19520,6 +20855,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 40.64 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 40.64 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 40.64 245.11 0)
 			(effects
 				(font
@@ -19590,6 +20943,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 52.07 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 52.07 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 52.07 245.11 0)
 			(effects
 				(font
@@ -19687,7 +21058,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3bba3006-887c-469f-8b4e-1ab318479f87")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR047"
 			(at 254 415.29 0)
 			(effects
 				(font
@@ -19736,7 +21107,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR040")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -19751,7 +21122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3cceb8f3-bbf8-4a5f-8d7d-e7810aa81847")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR086"
 			(at 491.49 369.57 0)
 			(effects
 				(font
@@ -19802,7 +21173,7 @@
 		(instances
 			(project ""
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR078")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -19855,6 +21226,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 25.4 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 25.4 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 25.4 260.35 0)
 			(effects
 				(font
@@ -19934,6 +21323,24 @@
 			)
 		)
 		(property "DigiKey Part Number" "296-37277-1-ND"
+			(at 62.23 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 62.23 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 62.23 247.65 0)
 			(effects
 				(font
@@ -20133,6 +21540,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 325.12 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 325.12 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5be69741-0543-4fb5-8ce9-caafe7b9ab6d")
 		)
@@ -20161,6 +21586,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 180.34 247.65 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ca83962-7e22-4edb-b72a-1027efe512b5")
+		(property "Reference" "R2"
+			(at 182.88 248.9201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 182.88 246.3801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 180.34 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 180.34 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 180.34 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 180.34 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e34ef49-52b3-4d71-bf52-c37f98f2733e")
+		)
+		(pin "2"
+			(uuid "82c0a776-de04-4fa1-b4f0-b0d0e0c0b924")
+		)
+		(instances
+			(project "HEDGE2-OBC"
+				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 325.12 317.5 0)
 		(unit 1)
@@ -20170,7 +21684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ca8b46c-30d4-4d93-925e-cc2517f7c56a")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR065"
 			(at 325.12 323.85 0)
 			(effects
 				(font
@@ -20220,7 +21734,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR055")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -20301,7 +21815,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "501d497f-3aaf-4105-8d5f-d1232fa8db4a")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 287.02 377.19 90)
 			(effects
 				(font
@@ -20371,6 +21885,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 287.02 382.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 287.02 382.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c8e0c019-9cda-4548-9f49-0d167974e35a")
 		)
@@ -20380,7 +21912,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -20584,6 +22116,24 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 519.43 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 519.43 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 519.43 367.03 0)
 			(effects
 				(font
@@ -20879,7 +22429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6414e673-522c-44db-a29f-ea5dd1e34e70")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR072"
 			(at 381 148.59 0)
 			(effects
 				(font
@@ -20930,7 +22480,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR062")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -21137,6 +22687,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 403.86 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 403.86 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "437289ba-f944-43f3-bdb8-e05dac306666")
 		)
@@ -21240,7 +22808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6697af55-9cdc-4ec8-bdee-09191aa6eafd")
-		(property "Reference" "C19"
+		(property "Reference" "C20"
 			(at 257.81 373.3862 0)
 			(effects
 				(font
@@ -21294,6 +22862,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 255.27 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 255.27 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c633a3d-a48c-4b6b-8ab5-77d726ff6477")
 		)
@@ -21303,7 +22889,95 @@
 		(instances
 			(project ""
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "C19")
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 180.34 281.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67078dca-4a12-483c-a8ab-151924e8e14c")
+		(property "Reference" "R3"
+			(at 182.88 280.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 182.88 283.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 180.34 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 180.34 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 180.34 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 180.34 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f67365f-9893-435b-b2f1-d880effc2ea3")
+		)
+		(pin "2"
+			(uuid "8dd272a2-7d8f-402c-8839-d19001c6af03")
+		)
+		(instances
+			(project ""
+				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -21319,7 +22993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68035c4e-0772-4ea5-bce8-6485ef99a9af")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR067"
 			(at 327.66 414.02 0)
 			(effects
 				(font
@@ -21369,7 +23043,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR057")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -21442,6 +23116,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 199.39 273.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6dad757e-1e78-450e-afd6-78d81982e472")
+		(property "Reference" "#PWR040"
+			(at 199.39 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9ec8bfa-d3ce-417a-8aa8-53f2e8114235")
+		)
+		(instances
+			(project "HEDGE2-OBC"
+				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 313.69 148.59 90)
 		(unit 1)
@@ -21450,7 +23190,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ed5df8e-4537-451d-ba06-e3412af7b37f")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR061"
 			(at 317.5 148.59 0)
 			(effects
 				(font
@@ -21501,7 +23241,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR051")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -21517,7 +23257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fda2801-1854-4158-84d0-fb6e15d27b20")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR057"
 			(at 289.56 382.27 0)
 			(effects
 				(font
@@ -21568,7 +23308,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR047")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -21584,7 +23324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "727eebe0-e068-435f-a4fe-7696008bbc46")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 236.22 372.11 0)
 			(effects
 				(font
@@ -21637,6 +23377,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 236.22 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 236.22 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "f911ca90-e60a-4852-a127-e20d3b639730")
 		)
@@ -21664,7 +23422,7 @@
 		(instances
 			(project ""
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -21680,7 +23438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73e079e1-4ba5-4e2f-b853-68684acca497")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR077"
 			(at 403.86 344.17 0)
 			(effects
 				(font
@@ -21730,7 +23488,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR069")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -21792,6 +23550,24 @@
 			)
 		)
 		(property "DigiKey Part Number" "1276-1029-1-ND"
+			(at 115.57 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 115.57 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 115.57 406.4 0)
 			(effects
 				(font
@@ -21892,7 +23668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78649403-2d28-404d-8202-9bc4fc0d8e28")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 224.79 325.1199 0)
 			(effects
 				(font
@@ -21964,6 +23740,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 227.33 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 227.33 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dbedf3e2-22ec-4c5e-8358-0c466e549a44")
 		)
@@ -21973,7 +23767,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -22024,6 +23818,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 74.295 327.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 74.295 327.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 74.295 327.025 0)
 			(effects
 				(font
@@ -22127,7 +23939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c57705f-c5e7-4262-be52-09f113239834")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR043"
 			(at 212.09 356.87 0)
 			(effects
 				(font
@@ -22177,7 +23989,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR038")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -22192,7 +24004,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d1679d7-953a-428a-ba3f-de087d3566b6")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR060"
 			(at 289.56 408.94 0)
 			(effects
 				(font
@@ -22243,7 +24055,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR050")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -22258,7 +24070,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81c0cc3f-c013-48a5-9468-a1fc707feda5")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR076"
 			(at 406.4 321.31 0)
 			(effects
 				(font
@@ -22309,7 +24121,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR068")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -22383,6 +24195,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 208.28 288.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83e5d552-d7d0-4cd1-a6e0-50badea136d2")
+		(property "Reference" "#PWR041"
+			(at 208.28 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eeeb6263-a44e-495c-a7be-975c3142e34e")
+		)
+		(instances
+			(project "HEDGE2-OBC"
+				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 260.35 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83e5dd62-f5df-4d33-9c62-8db416db96fe")
+		(property "Reference" "#PWR054"
+			(at 260.35 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 260.35 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0684e26-a4ef-4a2d-954a-170778040d51")
+		)
+		(instances
+			(project "HEDGE2-OBC"
+				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 444.5 340.36 0)
 		(unit 1)
@@ -22392,7 +24336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8467b874-aecf-4b41-b9bf-8c66ec2d36bf")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 446.405 339.0899 0)
 			(effects
 				(font
@@ -22437,6 +24381,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 444.5 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 444.5 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0960ee1b-7c60-4ded-ac34-b6cf7d3ed872")
 		)
@@ -22446,7 +24408,300 @@
 		(instances
 			(project ""
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "R12")
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 228.6 299.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8522133b-4b2f-45f8-91ae-5f6e65f79d9f")
+		(property "Reference" "#PWR045"
+			(at 228.6 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "123974b1-e294-4ae0-b72e-bd597b0cdf1d")
+		)
+		(instances
+			(project "HEDGE2-OBC"
+				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BNO055:BNO055")
+		(at 228.6 262.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86672cd5-01c6-4309-b9e7-2bd13d83c4e7")
+		(property "Reference" "U4"
+			(at 228.6 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BNO055"
+			(at 228.6 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BNO055:LGA28R50P4X10_380X520X100"
+			(at 228.6 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "828-1058-1-ND"
+			(at 228.6 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BNO055/Bosch/view-part/?ref=snap"
+			(at 228.6 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "BNO055 series Accelerometer, Gyroscope, Magnetometer, 3 Axis Sensor Evaluation Board"
+			(at 228.6 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "LGA-28 Bosch"
+			(at 228.6 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/BNO055/Bosch/view-part/?ref=eda"
+			(at 228.6 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Bosch"
+			(at 228.6 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "BNO055"
+			(at 228.6 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "BOSCH"
+			(at 228.6 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 228.6 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "828-1058-1-ND"
+			(at 228.6 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 228.6 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "18"
+			(uuid "d48f993b-8cdc-46a6-81c4-2328100436f0")
+		)
+		(pin "3"
+			(uuid "4a23dd73-050a-4116-97c4-aed664f715e9")
+		)
+		(pin "20"
+			(uuid "89c8f8d9-c7ba-4de9-93c5-1f47f1730236")
+		)
+		(pin "11"
+			(uuid "5badbe23-835d-46e1-b2f3-6dcd633af488")
+		)
+		(pin "4"
+			(uuid "043ae5dd-a06b-4023-b485-1d63d3798771")
+		)
+		(pin "6"
+			(uuid "2c4c9d00-1a81-4f45-b669-0817efd81e74")
+		)
+		(pin "5"
+			(uuid "1d91310a-e926-4cea-a8b7-967d48862625")
+		)
+		(pin "27"
+			(uuid "0c9b8f1c-4f49-4b29-b63e-92be5056273b")
+		)
+		(pin "19"
+			(uuid "b7d96384-a83b-47a0-8eb4-aa4224c62bd7")
+		)
+		(pin "17"
+			(uuid "c635d210-b340-4345-9549-5e7af22764e1")
+		)
+		(pin "9"
+			(uuid "b7627c73-7bf8-469f-9e92-2f69b65ea83f")
+		)
+		(pin "2"
+			(uuid "50fefe2c-a715-4783-abe1-b25dc7d932f0")
+		)
+		(pin "16"
+			(uuid "8a2d6248-3711-4250-ad95-82ce45e3b180")
+		)
+		(pin "26"
+			(uuid "fa1bf7ac-87af-4b65-a7f4-4e0c62e81634")
+		)
+		(pin "28"
+			(uuid "a143c544-4368-40cd-8bd8-c17737e655ef")
+		)
+		(pin "25"
+			(uuid "7d36c849-29b3-47bc-b1d7-ce25c0fcd4ab")
+		)
+		(pin "10"
+			(uuid "bd5ef420-f96e-4e3d-8b18-9f0ace414954")
+		)
+		(pin "15"
+			(uuid "136191a0-eee7-4fbc-b3b4-45e9038c829e")
+		)
+		(pin "14"
+			(uuid "4850832a-5d17-4d46-af24-c7e2f8138cc3")
+		)
+		(instances
+			(project ""
+				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -22462,7 +24717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87ed060a-c03a-4b55-8004-de3d6e91c759")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR058"
 			(at 289.56 391.16 0)
 			(effects
 				(font
@@ -22513,7 +24768,74 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR048")
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 180.34 243.84 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8854f9a5-e2e2-43f5-ae6a-60b7bd7e2d15")
+		(property "Reference" "#PWR037"
+			(at 176.53 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3<CM4"
+			(at 184.15 243.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 180.34 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b84f9ab-f7b9-495d-9595-d0b56b0f0397")
+		)
+		(instances
+			(project "HEDGE2-OBC"
+				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -22530,7 +24852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b507a99-3600-41ac-9f56-f487f98ba132")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR042"
 			(at 212.09 336.55 0)
 			(effects
 				(font
@@ -22580,7 +24902,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR037")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -22596,7 +24918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ddee6c6-5f6e-45a6-af61-8edd34d44def")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR069"
 			(at 354.33 383.54 0)
 			(effects
 				(font
@@ -22647,7 +24969,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR059")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -22668,7 +24990,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e73a521-883a-47ff-b7bb-100f4da927c3")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR074"
 			(at 389.89 303.53 0)
 			(effects
 				(font
@@ -22719,7 +25041,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR064")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -22903,6 +25225,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 60.96 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 60.96 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "19d9fc31-6d24-483b-93ac-f880e412dae6")
 		)
@@ -22928,6 +25268,72 @@
 			(project ""
 				(path "/ace5002f-3cbc-4a0a-869b-0e31ebd905b7/893aef5a-59ff-410b-9a71-9930aaf04e9f"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 251.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "938c4072-32c5-42db-889e-062761eae6e9")
+		(property "Reference" "#PWR039"
+			(at 195.58 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2137bb8b-43c2-45ec-9c35-5e826ff2854c")
+		)
+		(instances
+			(project "HEDGE2-OBC"
+				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -23001,16 +25407,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 394.97 396.24 270)
+		(at 251.46 279.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "951dbba1-a97b-4539-be5f-9df912fa192a")
-		(property "Reference" "#PWR066"
-			(at 388.62 396.24 0)
+		(property "Reference" "#PWR046"
+			(at 251.46 285.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23019,16 +25424,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 391.16 396.2399 90)
+			(at 252.73 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 394.97 396.24 0)
+			(at 251.46 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23037,7 +25442,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 394.97 396.24 0)
+			(at 251.46 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23046,7 +25451,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 394.97 396.24 0)
+			(at 251.46 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23060,7 +25465,7 @@
 		(instances
 			(project ""
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR066")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -23077,7 +25482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9535ab95-ba8e-4b4c-b8aa-8bc2e4081ffc")
-		(property "Reference" "C17"
+		(property "Reference" "C18"
 			(at 215.8937 323.85 90)
 			(effects
 				(font
@@ -23147,6 +25552,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 215.9 330.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 215.9 330.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b4308d2f-417a-4e0d-89a9-eb0ed334e8ab")
 		)
@@ -23156,7 +25579,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "C17")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -23209,6 +25632,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 52.07 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 52.07 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 52.07 267.97 0)
 			(effects
 				(font
@@ -23374,7 +25815,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "978735ed-1730-4935-9152-5e0f2f1181b6")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR087"
 			(at 491.49 372.11 0)
 			(effects
 				(font
@@ -23425,7 +25866,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR079")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -23506,7 +25947,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a14d843-f5ab-4445-afc2-0a6fef7af4fd")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR063"
 			(at 320.04 370.84 0)
 			(effects
 				(font
@@ -23556,13 +25997,101 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR053")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
 			(project ""
 				(path "/ace5002f-3cbc-4a0a-869b-0e31ebd905b7/893aef5a-59ff-410b-9a71-9930aaf04e9f"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 208.28 284.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c504757-4a9a-47c1-bf3c-c6181a19f86d")
+		(property "Reference" "C17"
+			(at 210.82 283.2162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 210.82 285.7562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 208.28 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 208.28 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 208.28 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 208.28 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f640e58f-7ae0-4398-ae15-cfc3616cfcb4")
+		)
+		(pin "2"
+			(uuid "5b454b7e-f812-4aad-9b4e-e8702ef1460d")
+		)
+		(instances
+			(project "HEDGE2-OBC"
+				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -23777,7 +26306,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3f5ebc1-fa00-4150-89cf-5a1d63fd1b1a")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR084"
 			(at 491.49 364.49 0)
 			(effects
 				(font
@@ -23827,7 +26356,95 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR076")
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 260.35 255.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4549e7c-8d85-45f5-8e70-611e26179217")
+		(property "Reference" "C22"
+			(at 262.89 254.0062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 262.89 256.5462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 260.35 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 260.35 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 260.35 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 260.35 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "661a36a7-90c4-40e3-b5aa-9fbefa033f51")
+		)
+		(pin "2"
+			(uuid "694a00db-e83b-4af5-84d6-97532d660b81")
+		)
+		(instances
+			(project ""
+				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -23842,7 +26459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a641190c-f1a1-435a-943f-e3ec3880d62d")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 287.02 403.86 90)
 			(effects
 				(font
@@ -23912,6 +26529,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 287.02 408.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 287.02 408.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "60f3d2ca-4dcc-4acc-b954-e805ae804450")
 		)
@@ -23921,7 +26556,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -23975,6 +26610,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 158.75 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 158.75 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 158.75 261.62 0)
 			(effects
 				(font
@@ -24080,7 +26733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acd2b037-85d7-42cd-b90a-cc2949ce457c")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR081"
 			(at 472.44 201.93 0)
 			(effects
 				(font
@@ -24130,7 +26783,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR073")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -24151,7 +26804,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af60d4b6-be63-40ae-a04d-3ec00b0d9f55")
-		(property "Reference" "R13"
+		(property "Reference" "R15"
 			(at 464.82 182.118 90)
 			(effects
 				(font
@@ -24221,6 +26874,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 464.82 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 464.82 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b67887dc-f4ba-43d7-90ec-9f68056451e1")
 		)
@@ -24230,7 +26901,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "R13")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -24292,6 +26963,24 @@
 			)
 		)
 		(property "DigiKey Part Number" "1276-1029-1-ND"
+			(at 19.05 403.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 19.05 403.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 19.05 403.86 0)
 			(effects
 				(font
@@ -24370,6 +27059,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 91.44 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 91.44 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fd786934-bb07-4cf3-ae90-f87b7b57bf0a")
 		)
@@ -24396,7 +27103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b36f694c-5e39-4f56-a65c-e21fdbd6c1bd")
-		(property "Reference" "R5"
+		(property "Reference" "R7"
 			(at 224.79 345.4399 0)
 			(effects
 				(font
@@ -24468,6 +27175,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 227.33 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 227.33 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d1e5e013-4133-4d0b-b1fd-6cd602fd8656")
 		)
@@ -24477,7 +27202,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -24492,7 +27217,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3e7beee-64be-46d2-be7e-b224891cd677")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR083"
 			(at 491.49 361.95 0)
 			(effects
 				(font
@@ -24543,7 +27268,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR075")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -24559,7 +27284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b43d7df2-0b00-42ea-a2af-4ad7f670527e")
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 257.81 386.0862 0)
 			(effects
 				(font
@@ -24613,6 +27338,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 255.27 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 255.27 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c633a3d-a48c-4b6b-8ab5-77d726ff6478")
 		)
@@ -24622,7 +27365,7 @@
 		(instances
 			(project ""
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -24704,7 +27447,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4f04308-5124-4898-867b-c69171eec6c3")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR085"
 			(at 491.49 367.03 0)
 			(effects
 				(font
@@ -24755,7 +27498,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR077")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -24838,7 +27581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7c8c82f-2f05-449d-a4d8-2b942f428509")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR070"
 			(at 354.33 408.94 0)
 			(effects
 				(font
@@ -24889,7 +27632,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR060")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -24904,7 +27647,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b94fb479-320a-4219-8fa8-acb604a92a17")
-		(property "Reference" "R14"
+		(property "Reference" "R16"
 			(at 464.82 201.168 90)
 			(effects
 				(font
@@ -24974,6 +27717,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 464.82 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 464.82 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4a9fe6b9-d77d-452e-a309-55cd66e668e3")
 		)
@@ -24983,7 +27744,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "R14")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -25087,6 +27848,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 472.44 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 472.44 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e8a552c9-228e-4e60-b43c-9a08d624f942")
 		)
@@ -25157,6 +27936,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 20.32 392.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 20.32 392.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3b8c8393-298d-49d8-b0a4-4e8d55b5d0e6")
 		)
@@ -25181,7 +27978,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c12cb122-924f-4ed5-bf95-e6d990521fa2")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR048"
 			(at 259.08 328.93 0)
 			(effects
 				(font
@@ -25232,7 +28029,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR041")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -25248,7 +28045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1ba64b6-2268-475c-8d46-50e484ac6032")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR091"
 			(at 530.86 384.81 0)
 			(effects
 				(font
@@ -25298,7 +28095,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR083")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -25377,6 +28174,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 532.13 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 532.13 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5222b7af-1b62-47a9-8bdb-e5e64451ab15")
 		)
@@ -25398,7 +28213,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c662af34-f3ed-44b7-b78e-a0255033f11b")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR053"
 			(at 255.27 397.51 0)
 			(effects
 				(font
@@ -25447,7 +28262,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR046")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -25565,6 +28380,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 147.32 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 147.32 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 147.32 250.19 0)
 			(effects
 				(font
@@ -25732,7 +28565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc043971-7214-4b9e-ab17-7999d6b36856")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR068"
 			(at 332.74 394.97 0)
 			(effects
 				(font
@@ -25783,7 +28616,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR058")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -25837,6 +28670,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 147.32 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 147.32 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 147.32 261.62 0)
 			(effects
 				(font
@@ -26000,6 +28851,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 537.21 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 537.21 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e8cd23eb-57e2-468f-89e6-8c144c110922")
 		)
@@ -26007,6 +28876,72 @@
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
 					(reference "MH4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 269.24 257.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6fdb1fb-eef0-4075-bf38-69ab923280c7")
+		(property "Reference" "#PWR056"
+			(at 269.24 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 270.51 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 269.24 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "937f17ac-e1cb-4cf7-bcf7-34bd43758ffd")
+		)
+		(instances
+			(project "HEDGE2-OBC"
+				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -26023,7 +28958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7120800-058a-4ae8-ac98-3ac7011a58a9")
-		(property "Reference" "R4"
+		(property "Reference" "R6"
 			(at 224.79 332.7399 0)
 			(effects
 				(font
@@ -26095,6 +29030,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 227.33 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 227.33 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "41e033bb-11c4-42da-b7c3-bacafbb372fa")
 		)
@@ -26104,7 +29057,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "R4")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -26165,6 +29118,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 358.14 403.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 358.14 403.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "88e5aafa-3a15-4e5e-a27c-067b3687db1c")
 		)
@@ -26190,7 +29161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da11fbd5-e136-4dad-9afa-c148cb8d5c37")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR066"
 			(at 327.66 387.35 0)
 			(effects
 				(font
@@ -26240,7 +29211,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR056")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -26299,6 +29270,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 44.45 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 44.45 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 44.45 391.16 0)
 			(effects
 				(font
@@ -26419,6 +29408,24 @@
 			)
 		)
 		(property "DigiKey Part Number" "26-DF40HC(3.0)-100DS-0.4V(51)CT-ND"
+			(at 354.33 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 354.33 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 354.33 107.95 0)
 			(effects
 				(font
@@ -27045,7 +30052,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dcd57450-ea83-41bc-a583-ffc83e769baf")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR059"
 			(at 289.56 400.05 0)
 			(effects
 				(font
@@ -27096,7 +30103,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR049")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -27180,7 +30187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0e08566-6581-4fcc-bf8e-665182d56868")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR052"
 			(at 251.46 382.27 0)
 			(effects
 				(font
@@ -27231,7 +30238,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR045")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -27487,6 +30494,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 55.88 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 55.88 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "05"
 			(uuid "cd5bec5a-e10d-4ceb-97f3-550d1c629f72")
 		)
@@ -27725,6 +30750,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 523.24 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 523.24 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5caabc83-0714-45d1-b90b-1d4effbd88e8")
 		)
@@ -27747,7 +30790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7e76779-4467-4994-9d00-87c472299b4b")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR080"
 			(at 467.36 325.12 0)
 			(effects
 				(font
@@ -27797,7 +30840,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR072")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -27850,6 +30893,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 115.57 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 115.57 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 115.57 393.7 0)
 			(effects
 				(font
@@ -28049,6 +31110,24 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 55.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 55.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 55.88 55.88 0)
 			(effects
 				(font
@@ -28275,6 +31354,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 100.33 285.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 100.33 285.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "382b4601-83ca-4670-b671-70d9ce02201c")
 		)
@@ -28300,7 +31397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edb63fad-6eb1-4a05-9ea4-09b935cbff74")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR075"
 			(at 388.62 350.52 0)
 			(effects
 				(font
@@ -28350,7 +31447,7 @@
 		(instances
 			(project ""
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR065")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -28492,15 +31589,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 396.24 391.16 90)
+		(at 269.24 250.19 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f133d906-9e64-402b-a3a6-c11cb3208eeb")
-		(property "Reference" "#PWR067"
-			(at 400.05 391.16 0)
+		(property "Reference" "#PWR055"
+			(at 265.43 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28509,7 +31606,7 @@
 			)
 		)
 		(property "Value" "+3V3<CM4"
-			(at 392.43 391.1599 90)
+			(at 273.05 250.1901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28518,7 +31615,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 396.24 391.16 0)
+			(at 269.24 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28527,7 +31624,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 396.24 391.16 0)
+			(at 269.24 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28536,7 +31633,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 396.24 391.16 0)
+			(at 269.24 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28550,7 +31647,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR067")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -28567,7 +31664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1b19fdd-dc5c-4907-8663-a09a9d91467b")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 224.79 353.0599 0)
 			(effects
 				(font
@@ -28639,6 +31736,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 227.33 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 227.33 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8e73214c-3646-4031-b842-21e1a1d0235e")
 		)
@@ -28648,7 +31763,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -28731,7 +31846,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3ed0af9-8289-4529-bb74-22547c28d2c9")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 212.09 379.73 0)
 			(effects
 				(font
@@ -28785,6 +31900,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 217.17 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 217.17 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "29af0277-4aa9-4fa3-80d7-4d82f6bef96b")
 		)
@@ -28794,7 +31927,7 @@
 		(instances
 			(project ""
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -28809,7 +31942,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4a3f77b-5f3f-41d4-9bef-3f4266041c28")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR088"
 			(at 491.49 374.65 0)
 			(effects
 				(font
@@ -28860,7 +31993,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR080")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -28942,7 +32075,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7a3e1e7-3712-4d85-b5a7-8ed85f06f376")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 287.02 394.97 90)
 			(effects
 				(font
@@ -29012,6 +32145,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 287.02 400.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 287.02 400.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0e53ae6f-7a4b-4b75-b563-3c2117d4f30f")
 		)
@@ -29021,7 +32172,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -29075,6 +32226,24 @@
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 358.14 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 358.14 378.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 358.14 378.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29276,6 +32445,24 @@
 			)
 		)
 		(property "DigiKey Part Number" "26-DF40HC(3.0)-100DS-0.4V(51)CT-ND"
+			(at 326.39 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 326.39 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 326.39 113.03 0)
 			(effects
 				(font
@@ -29971,7 +33158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff466ca3-1005-4ba4-978d-e429390a1136")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR082"
 			(at 472.44 220.98 0)
 			(effects
 				(font
@@ -30021,7 +33208,7 @@
 		(instances
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(reference "#PWR074")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -30083,6 +33270,24 @@
 			)
 		)
 		(property "DigiKey Part Number" "505-ADP7158ARDZ-3.3-R7CT-ND"
+			(at 44.45 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 44.45 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 44.45 396.24 0)
 			(effects
 				(font
@@ -30225,98 +33430,6 @@
 			(project "HEDGE2-OBC"
 				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 397.51 388.62)
-		(size 31.75 21.59)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "447e6187-2c4f-4605-bcfa-9c5de09578b6")
-		(property "Sheetname" "MAX6635_GNSS"
-			(at 397.51 387.9084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "MAX6635.kicad_sch"
-			(at 397.51 410.7946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "A0" input
-			(at 397.51 394.97 180)
-			(uuid "f6bdc066-74f6-4597-85b4-fe3b8b4d9dcf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "A1" input
-			(at 397.51 397.51 180)
-			(uuid "ac8867a7-b265-40ed-b4a2-8b3bc7b5c806")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SCL" input
-			(at 397.51 401.32 180)
-			(uuid "38af4d65-cc12-4257-bd25-a9074dc49404")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SDA" bidirectional
-			(at 397.51 405.13 180)
-			(uuid "d38f7074-1ea6-4179-84b7-dd7562f0e33c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VCC" input
-			(at 397.51 391.16 180)
-			(uuid "833615a1-f90e-4db5-add4-7fcb3b5d5e0e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "HEDGE2-OBC"
-				(path "/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9"
-					(page "6")
 				)
 			)
 		)

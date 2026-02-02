@@ -20,4 +20,6 @@
   (lib (name "SC16IS752IPW")(type "KiCad")(uri "${KICAD_USER_CADFILES}/SC16IS752IPW/SC16IS752IPW.kicad_sym")(options "")(descr ""))
   (lib (name "ABLS-LR-3.072MHZ-T")(type "KiCad")(uri "${KICAD_USER_CADFILES}/ABLS-LR-3.072MHZ-T/ABLS-LR-3.072MHZ-T.kicad_sym")(options "")(descr ""))
   (lib (name "XLH53xxxxxx")(type "KiCad")(uri "${KICAD_USER_CADFILES}/XLH53xxxxxx/2026-01-29_15-53-55.kicad_sym")(options "")(descr ""))
+  (lib (name "Adafruit_2472_BNO055")(type "KiCad")(uri "${KICAD_USER_CADFILES}/Adafruit_2472_BNO055/Adafruit_2472_BNO055.kicad_sym")(options "")(descr ""))
+  (lib (name "BNO055")(type "KiCad")(uri "${KICAD_USER_CADFILES}/BNO055/BNO055.kicad_sym")(options "")(descr ""))
 )
