@@ -51,7 +51,13 @@
           "min_clearance": 0.2
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [
         [
           "courtyards_overlap|176260000|93707477|653fce41-0580-4919-bf01-1f916f2c15c5|8a60a478-3dc4-481d-8994-98efd1e43b33",
@@ -110,7 +116,7 @@
           ""
         ],
         [
-          "unconnected_items|198000000|108200000|F.Cu|4|f8c67319-b168-4aec-b4ba-60b60e67fdb3|0b7e2d48-3f09-4d45-8954-3228d90a19e6",
+          "unconnected_items|198000000|108200000|F.Cu|4|f8c67319-b168-4aec-b4ba-60b60e67fdb3|6dc0a84d-f0df-42cb-a72e-a9b4a496fd04",
           ""
         ],
         [
@@ -164,7 +170,7 @@
         "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "ignore",
+        "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
@@ -182,23 +188,23 @@
         "zones_intersect": "error"
       },
       "rules": {
-        "max_error": 0.005,
-        "min_clearance": 0.1,
-        "min_connection": 0.1,
+        "max_error": 0.001,
+        "min_clearance": 0.127,
+        "min_connection": 0.127,
         "min_copper_edge_clearance": 0.025,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.2,
-        "min_microvia_drill": 0.15,
+        "min_hole_clearance": 0.127,
+        "min_hole_to_hole": 0.127,
+        "min_microvia_diameter": 0.4572,
+        "min_microvia_drill": 0.254,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.15,
-        "min_track_width": 0.1,
-        "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.15,
+        "min_text_thickness": 0.127,
+        "min_through_hole_diameter": 0.254,
+        "min_track_width": 0.127,
+        "min_via_annular_width": 0.1016,
+        "min_via_diameter": 0.4572,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -246,7 +252,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -273,7 +281,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -303,6 +316,10 @@
       ],
       [
         "four_way_junction|1358900|2527300|889d0d4d-7caf-4843-a6e0-8189af7c1407|343ba592-72a2-4400-a8d6-ba639f4748b6|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9||",
+        ""
+      ],
+      [
+        "four_way_junction|1358900|2527300|889d0d4d-7caf-4843-a6e0-8189af7c1407|8fa250a9-ad3d-4427-89a1-d375bd403d11|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9||",
         ""
       ],
       [
@@ -382,6 +399,10 @@
         ""
       ],
       [
+        "four_way_junction|406400|2654300|717f6b6a-5602-455b-9617-32c5185943c0|b5d872db-86be-4814-94d9-343eb3726eab|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9||",
+        ""
+      ],
+      [
         "four_way_junction|406400|2654300|717f6b6a-5602-455b-9617-32c5185943c0|db31b7db-c669-4875-8cd4-1893ec1d39bb|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9||",
         ""
       ],
@@ -422,6 +443,10 @@
         ""
       ],
       [
+        "four_way_junction|609600|2705100|bcc32e18-fcbe-421a-9fab-68a2cc7a5d3c|50e896d8-60b1-4b76-9beb-6d1894b57977|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9||",
+        ""
+      ],
+      [
         "four_way_junction|622300|2933700|5684432d-77fa-4f1f-98a1-ae63155d2517|bcc32e18-fcbe-421a-9fab-68a2cc7a5d3c|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9||",
         ""
       ],
@@ -443,6 +468,10 @@
       ],
       [
         "lib_symbol_issues|3937000|876300|dc17f76c-3c1f-4e0d-a8da-16f6a0c9db0a|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "multiple_net_names|1244600|2552700|4aa80c2c-11a8-4109-a7a2-a021caa4b3a1|7416802c-ac24-46f0-9994-c4ae3a4a5e95|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9|/a13a6ce3-91ba-42e3-9b40-443fe6a0f2d9",
         ""
       ],
       [
@@ -912,7 +941,7 @@
       "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../HEDGE2-OBC-V1.3.step",
+      "step": "HEDGE2-OBC-V1.3.step",
       "svg": "",
       "vrml": ""
     },
@@ -1173,6 +1202,18 @@
           "group_by": false,
           "label": "SnapEDA_Link",
           "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S3.3",
+          "name": "KLC_S3.3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.1",
+          "name": "KLC_S4.1",
           "show": false
         }
       ],

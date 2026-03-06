@@ -1738,6 +1738,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 113.03 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 113.03 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "df2e157c-1fa1-46ca-88aa-5e7683b570f9")
 		)
@@ -1844,6 +1862,24 @@
 			)
 		)
 		(property "Price" ""
+			(at 176.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 176.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 176.53 119.38 0)
 			(effects
 				(font
@@ -2149,6 +2185,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 184.15 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 184.15 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dcc35b1d-391c-4b21-88d0-d5437710d1a6")
 		)
@@ -2219,7 +2273,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part Number" "541-10.0KCCT-ND "
+		(property "DigiKey Part Number" "RNCP0805FTD10K0CT-ND"
 			(at 101.6 105.41 0)
 			(effects
 				(font
@@ -2238,6 +2292,24 @@
 			)
 		)
 		(property "Price" ""
+			(at 101.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 101.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 101.6 105.41 0)
 			(effects
 				(font
@@ -2332,6 +2404,24 @@
 			)
 		)
 		(property "Price" ""
+			(at 146.05 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 146.05 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 146.05 71.12 90)
 			(effects
 				(font
@@ -2435,6 +2525,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 146.05 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 146.05 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1f5b6bdb-397f-437c-a4cf-1359ca36aae8")
 		)
@@ -2505,7 +2613,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part Number" "541-10.0KCCT-ND "
+		(property "DigiKey Part Number" "RNCP0805FTD10K0CT-ND"
 			(at 101.6 95.25 0)
 			(effects
 				(font
@@ -2524,6 +2632,24 @@
 			)
 		)
 		(property "Price" ""
+			(at 101.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 101.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 101.6 95.25 0)
 			(effects
 				(font
@@ -2620,6 +2746,24 @@
 			)
 		)
 		(property "Price" ""
+			(at 176.53 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 176.53 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 176.53 83.82 0)
 			(effects
 				(font
@@ -2783,6 +2927,24 @@
 			)
 		)
 		(property "Price" ""
+			(at 184.15 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 184.15 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 184.15 95.25 0)
 			(effects
 				(font
