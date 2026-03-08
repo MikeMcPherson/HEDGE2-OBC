@@ -29,3 +29,6 @@ gerbers/*
 # Exported BOM files
 *.xml
 *.csv
+
+# FreeCAD backup files
+*.FCBak
