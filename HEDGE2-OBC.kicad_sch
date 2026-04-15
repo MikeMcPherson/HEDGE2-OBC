@@ -16666,7 +16666,7 @@
 				(type solid)
 			)
 		)
-		(column_widths 20.32 22.225 20.32)
+		(column_widths 20.32 22.225 22.225)
 		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
 		(cells
 			(table_cell "Device/PCB"
@@ -16710,7 +16710,7 @@
 			(table_cell "CM4 GPIOs"
 				(exclude_from_sim no)
 				(at 518.795 328.93 0)
-				(size 20.32 2.54)
+				(size 22.225 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -16763,7 +16763,7 @@
 			(table_cell "14, 15, 23"
 				(exclude_from_sim no)
 				(at 518.795 331.47 0)
-				(size 20.32 2.54)
+				(size 22.225 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -16811,10 +16811,10 @@
 				)
 				(uuid "670c1ed1-1fe1-4a37-82d2-fa09b310a531")
 			)
-			(table_cell "4, 5"
+			(table_cell "4, 5, 7"
 				(exclude_from_sim no)
 				(at 518.795 334.01 0)
-				(size 20.32 2.54)
+				(size 22.225 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -16865,7 +16865,7 @@
 			(table_cell "8, 9"
 				(exclude_from_sim no)
 				(at 518.795 336.55 0)
-				(size 20.32 2.54)
+				(size 22.225 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -16916,7 +16916,7 @@
 			(table_cell "12, 13, 26"
 				(exclude_from_sim no)
 				(at 518.795 339.09 0)
-				(size 20.32 2.54)
+				(size 22.225 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -16964,10 +16964,10 @@
 				)
 				(uuid "4ab67b28-7ab2-4620-94aa-03b41dcc7316")
 			)
-			(table_cell "SPI3: 0, 1, 7"
+			(table_cell "SPI3: 0, 1, 2, 3, 16"
 				(exclude_from_sim no)
 				(at 518.795 341.63 0)
-				(size 20.32 2.54)
+				(size 22.225 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -17015,10 +17015,10 @@
 				)
 				(uuid "4ab67b28-7ab2-4620-94aa-03b41dcc7316")
 			)
-			(table_cell "SPI3: 0, 1, 7"
+			(table_cell "SPI3: 0, 1, 2, 3, 16"
 				(exclude_from_sim no)
 				(at 518.795 344.17 0)
-				(size 20.32 2.54)
+				(size 22.225 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
